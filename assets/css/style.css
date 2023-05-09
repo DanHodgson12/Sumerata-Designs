@@ -43,3 +43,24 @@
         padding-right: 0;
     }
 }
+
+/* Styling header for mobile view */
+
+@media screen and (max-width:575px) {
+.main-heading {
+        height: 80px;
+        background-color: #c5e2ff;
+    }
+
+    .logo {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .logo img {
+        height: 70px;
+        width: 70px;
+        margin: 5px;
+        border-radius: 15px;
+    }
+}
