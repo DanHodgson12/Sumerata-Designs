@@ -6,7 +6,7 @@
 /* Heading */
 
 .main-heading {
-    height: 160px;
+    height: 140px;
     padding-left: 0px;
     padding-right: 0px;
     background-color: #c5e2ff;
@@ -18,15 +18,16 @@
 }
 
 .logo img {
-    height: 140px;
-    width: 140px;
-    margin: 10px;
+    height: 130px;
+    width: 130px;
+    margin: 5px;
     border-radius: 15px;
 }
 
 .title {
     padding-top: 40px;
     padding-left: 20px;
+    padding-right: 0;
 }
 
 .title h1 {
@@ -37,30 +38,55 @@
     font-size: 70%;
 }
 
+
+
+
+
+
+
+
+
+
+/* 
 @media screen and (max-width:767px) {
     .title {
         padding-left: 0;
         padding-right: 0;
     }
-}
+} */
 
 /* Styling header for mobile view */
 
 @media screen and (max-width:575px) {
-.main-heading {
-        height: 80px;
+    .main-heading {
+        height: 100px;
         background-color: #c5e2ff;
     }
 
     .logo {
         padding-left: 0;
         padding-right: 0;
+        margin-right: 5px;
     }
 
     .logo img {
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
         margin: 5px;
         border-radius: 15px;
+    }
+
+    .title {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-right: 0;
+    }
+
+    .title h1 {
+        font-size: 100%;
+    }
+
+    .title h4 {
+        font-size: 50%;
     }
 }
