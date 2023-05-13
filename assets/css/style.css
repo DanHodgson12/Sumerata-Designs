@@ -8,7 +8,7 @@
 .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #4B4A54;
+    background-color: #c9c9c9;
 }
 
 .navbar-container {
@@ -20,8 +20,30 @@
     margin-left: auto;
 }
 
+#navbar-title {
+    margin-right: auto;
+}
+
 .navbar-brand img {
     width: 80px;
     height: 80px;
     border-radius: 5px;
 }
+
+/* Navbar Toggler */
+
+.nav-link {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* .offcanvas {
+    max-width: 20%;
+    max-height: fit-content;
+    align-items: flex-end;
+} */
