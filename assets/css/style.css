@@ -5,3 +5,11 @@
 
 /* Heading */
 
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+}
