@@ -5,6 +5,17 @@
 
 /* Heading */
 
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #4B4A54;
+}
+
+.navbar-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .navbar-nav {
     margin-left: auto;
 }
@@ -12,4 +23,5 @@
 .navbar-brand img {
     width: 80px;
     height: 80px;
+    border-radius: 5px;
 }
