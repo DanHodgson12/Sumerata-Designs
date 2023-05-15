@@ -74,21 +74,21 @@
     align-items: flex-end;
     flex-direction: column;
     transition: none;
-    
+
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
     width: fit-content;
-        float: right;
+    float: right;
 }
 
 .nav-underline .nav-link.active,
 .nav-underline .show>.nav-link {
     border-bottom-color: #fefefc;
     width: fit-content;
-        float: right;
+    float: right;
 }
 
 /* Nav Toggler */
