@@ -20,6 +20,17 @@
     margin-left: auto;
 }
 
+.navbar-nav a{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #fefefc;
+        border: 1px solid;
+        border-color: rgb(0 0 0 / 30%);
+}
+
 #navbar-logo {
     margin-right: 10px;
 }
