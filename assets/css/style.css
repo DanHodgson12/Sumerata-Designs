@@ -20,14 +20,33 @@
     margin-left: auto;
 }
 
+#navbar-logo {
+    margin-right: 10px;
+}
+
+#navbar-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
 #navbar-title {
     margin-right: auto;
 }
 
-.navbar-brand img {
-    width: 80px;
-    height: 80px;
-    border-radius: 5px;
+#navbar-title h1 {
+    font-size: 1.5rem;
+}
+
+#navbar-title h4 {
+    font-size: 0.8rem;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+#navbar-title h1,
+#navbar-title h4 {
+    margin-bottom: 0px;
 }
 
 /* Navbar Toggler */
