@@ -8,7 +8,7 @@
 .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #c9c9c9;
+    background-color: #c0c0c0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -66,12 +66,15 @@
     font-weight: 500;
     margin-right: 4px;
     margin-left: 4px;
+    color: black;
 }
 
 .nav-link {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+    transition: none;
+    
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
