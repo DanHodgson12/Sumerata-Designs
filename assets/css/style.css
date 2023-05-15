@@ -23,12 +23,12 @@
 .navbar-nav a{
     font-family: 'Merriweather', serif;
     font-weight: 500;
+    margin-right: 8px;
 }
 
-.nav-pills .nav-link.active {
-    background-color: #fefefc;
-        border: 1px solid;
-        border-color: rgb(0 0 0 / 30%);
+.nav-underline .nav-link.active,
+.nav-underline .show>.nav-link {
+    border-bottom-color: #fefefc;
 }
 
 #navbar-logo {
