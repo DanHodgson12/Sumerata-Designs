@@ -64,13 +64,19 @@
 .navbar-nav a {
     font-family: 'Merriweather', serif;
     font-weight: 500;
-    margin-right: 8px;
+    margin-right: 4px;
+    margin-left: 4px;
 }
 
 .nav-link {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .nav-underline .nav-link.active,
