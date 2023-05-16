@@ -117,6 +117,8 @@ h6 {
 
 footer {
     background-color: #c0c0c0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .footer-row {
