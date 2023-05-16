@@ -116,7 +116,6 @@ h6 {
 /* Footer */
 
 footer {
-    min-height: 80px;
     background-color: #c0c0c0;
 }
 
@@ -128,5 +127,9 @@ footer {
     font-family: 'Merriweather', serif;
     font-weight: 200;
     font-size: 14px;
+}
+
+.copyright,
+.social-links {
     line-height: 30px;
 }
