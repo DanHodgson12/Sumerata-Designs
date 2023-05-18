@@ -35,9 +35,10 @@ h6 {
     margin-right: 10px;
 }
 
-@media (max-width:363px) { /* <----- I don't want the logo to show on screen sizes smaller than 364px as it messes with the layout of the navbar toggler and header title */
+/* I don't want the logo to show on screen sizes smaller than 364px as it messes with the layout of the navbar toggler and header title */
+@media (max-width:363px) {
     #navbar-logo {
-         display: none; 
+        display: none;
     }
 }
 
@@ -129,6 +130,13 @@ footer {
 
 .footer-row {
     padding: 20px 0;
+}
+
+/* This is to leave less space beneath the copyright on screen sizes lower than 768px */
+@media (max-width:767px) {
+    .footer-row {
+        padding-bottom: 10px;
+    }
 }
 
 .copyright h6 {
