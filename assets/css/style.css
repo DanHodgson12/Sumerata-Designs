@@ -35,8 +35,8 @@ h6 {
     margin-right: 10px;
 }
 
-/* I don't want the logo to show on screen sizes smaller than 364px as it messes with the layout of the navbar toggler and header title */
-@media (max-width:363px) {
+/* I don't want the logo to show on screen sizes smaller than 367px as it messes with the layout of the navbar toggler and header title */
+@media (max-width:366px) {
     #navbar-logo {
         display: none;
     }
@@ -57,7 +57,14 @@ h6 {
 #navbar-title h1 {
     font-size: 1.3rem;
     font-weight: 500;
-    /* add media query to make font size larger when above 425px */
+}
+
+/* Added media query to make font size larger when above 479px */
+@media (min-width:480px) {
+    #navbar-title h1 {
+        font-size: 2rem;
+
+    }
 }
 
 #navbar-title h4 {
