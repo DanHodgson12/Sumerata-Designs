@@ -32,7 +32,7 @@ h6 {
 /* Nav Logo */
 
 #navbar-logo {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 /* I don't want the logo to show on screen sizes smaller than 367px as it messes with the layout of the navbar toggler and header title */
@@ -121,6 +121,7 @@ h6 {
 .navbar-toggler {
     background-color: #fefefc;
     border: 2px solid #9f9f9f;
+    margin-left: 5px;
 }
 
 .navbar-collapse {
