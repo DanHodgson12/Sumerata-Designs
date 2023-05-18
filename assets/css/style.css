@@ -29,14 +29,27 @@ h6 {
     padding-right: 10px;
 }
 
+/* I want the logo to less padding when the screen size is smaller than 348px, which helps the header content stay centered at lower scree sizes */
+@media (max-width:347px) {
+    .navbar-container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .navbar-brand {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
 /* Nav Logo */
 
 #navbar-logo {
     margin-right: 5px;
 }
 
-/* I don't want the logo to show on screen sizes smaller than 367px as it messes with the layout of the navbar toggler and header title */
-@media (max-width:366px) {
+/* I don't want the logo to show on screen sizes smaller than 334px as it messes with the layout of the navbar toggler and header title */
+@media (max-width:333px) {
     #navbar-logo {
         display: none;
     }
@@ -46,6 +59,14 @@ h6 {
     width: 80px;
     height: 80px;
     border-radius: 5px;
+}
+
+/* I want the logo to appear smaller to match the header title when the screen size is smaller than 480px */
+@media (max-width:479px) {
+    #navbar-logo img {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 /* Nav Title */
