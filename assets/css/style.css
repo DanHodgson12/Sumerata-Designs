@@ -35,6 +35,12 @@ h6 {
     margin-right: 10px;
 }
 
+@media (max-width:363px) { /* <----- I don't want the logo to show on screen sizes smaller than 364px as it messes with the layout of the navbar toggler and header title */
+    #navbar-logo {
+         display: none; 
+    }
+}
+
 #navbar-logo img {
     width: 80px;
     height: 80px;
@@ -128,7 +134,7 @@ footer {
 .copyright h6 {
     font-family: 'Merriweather', serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 30px;
 }
 
