@@ -87,11 +87,25 @@ h6 {
     }
 }
 
+/* Added media query to make font size larger when above 1400px */
+@media (min-width:1400px) {
+    #navbar-title h1 {
+        font-size: 2.4rem;
+    }
+}
+
 #navbar-title h4 {
     font-size: 0.7rem;
     margin-top: 6px;
     margin-left: 10px;
     font-weight: 300;
+}
+
+/* Added media query to make font size larger when above 1200px */
+@media (min-width:1200px) {
+    #navbar-title h4 {
+        font-size: 0.9rem;
+    }
 }
 
 #navbar-title h1,
