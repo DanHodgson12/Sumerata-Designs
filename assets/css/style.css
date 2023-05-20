@@ -231,6 +231,7 @@ footer {
 
 /* Gallery */
 
+/* Idea 1 */
 #photo {
     line-height: 2;
     column-count: 3;
@@ -242,3 +243,12 @@ footer {
     width: 100%;
     padding-bottom: 10px;
 }
+
+/* Idea 2 */
+/* #gallery {
+    padding: 0.5rem;
+}
+
+#gallery img {
+    width: 100%;
+} */
