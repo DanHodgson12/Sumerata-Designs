@@ -22,7 +22,7 @@ h6 {
     margin: 0;
 }
 
-/* Heading */
+/*-------------- Heading --------------*/
 
 .navbar {
     padding-top: 5px;
@@ -170,7 +170,7 @@ h6 {
     flex-grow: 0;
 }
 
-/* Footer */
+/*-------------- Footer --------------*/
 
 footer {
     background-color: #c0c0c0;
@@ -233,7 +233,7 @@ footer {
     line-height: 30px;
 }
 
-/* Gallery */
+/*-------------- Gallery --------------*/
 
 /* Idea 1 */
 #photo {
@@ -277,7 +277,7 @@ footer {
     width: 100%;
 } */
 
-/* Contact Us */
+/*-------------- Contact Us --------------*/
 
 /* Full background image */
 .contact-container {
