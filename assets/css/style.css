@@ -281,10 +281,15 @@ footer {
 
 /* Full background image */
 .contact-container {
-    background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center fixed;
+    background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
+}
+
+.contact-form {
+    position: relative;
+   top: 150px;
 }
