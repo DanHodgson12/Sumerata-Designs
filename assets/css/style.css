@@ -5,9 +5,9 @@
     margin: 0;
 }
 
-/* html, body {
-    height: 100%;
-} */
+html{
+    height: 100vh;
+}
 
 body {
     background-color: #fefefc;
@@ -289,7 +289,11 @@ footer {
     height: 100vh;
 }
 
-.contact-form {
-    position: relative;
-   top: 150px;
+.form-label {
+    margin-bottom: 0;
+}
+
+.form-text {
+    margin-top: 0;
+    font-size: 0.65rem;
 }
