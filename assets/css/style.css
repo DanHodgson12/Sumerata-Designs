@@ -5,10 +5,6 @@
     margin: 0;
 }
 
-html{
-    height: 100vh;
-}
-
 body {
     background-color: #fefefc;
 }
@@ -287,10 +283,30 @@ footer {
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
+    min-height: 550px;
+}
+
+.form-card {
+    background-color: #fcfbf7;
+}
+
+.card-header {
+    background-color: inherit;
+    border-bottom: none;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.form-control {
+    background-color: rgb(128, 128, 128, 0.1);
 }
 
 .form-label {
     margin-bottom: 0;
+}
+
+.form-label, .form-check-label, .form-control, .btn {
+    font-family: 'Merriweather', serif;
 }
 
 .form-text {
