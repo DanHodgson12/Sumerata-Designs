@@ -7,6 +7,7 @@
 
 body {
     background-color: #fefefc;
+    height: 100vh;
 }
 
 h1,
@@ -324,10 +325,51 @@ footer {
 
 /* About section */
 .about-container {
+    padding: 0;
+}
+
+.about-card {
+    margin: 40px;
+}
+
+@media (max-width: 576px) {
+    .about-card {
+            margin: 20px;
+        }
+}
+
+@media (max-width: 425px) {
+    .about-card {
+        margin: 10px;
+    }
+}
+
+.about-container img {
+    float: right;
+}
+
+.about-container .card-text {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .about-container {
     border: 1px solid;
-    margin: 50px;
-    max-width: 0;
-    min-width: fit-content;
+    margin-top: 50px;
+    
 }
 
 .about-container img {
@@ -341,4 +383,4 @@ footer {
 .about-image {
     padding-left: 0;
     padding-right: 0;
-}
+} */
