@@ -287,7 +287,7 @@ footer {
 }
 
 .form-card {
-    background-color: #fcfbf7;
+    background-color: #fcfbf7f2;
 }
 
 .card-header {
@@ -312,4 +312,9 @@ footer {
 .form-text {
     margin-top: 0;
     font-size: 0.65rem;
+}
+
+#design-idea {
+    max-height: 35vh;
+    height: 35vh;
 }
