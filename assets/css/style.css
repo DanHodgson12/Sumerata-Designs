@@ -319,3 +319,26 @@ footer {
     max-height: 35vh;
     height: 35vh;
 }
+
+/*-------------- Main Page --------------*/
+
+/* About section */
+.about-container {
+    border: 1px solid;
+    margin: 50px;
+    max-width: 0;
+    min-width: fit-content;
+}
+
+.about-container img {
+    width: 100%;
+}
+
+.about-text {
+    padding: 10px;
+}
+
+.about-image {
+    padding-left: 0;
+    padding-right: 0;
+}
