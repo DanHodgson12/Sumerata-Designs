@@ -333,9 +333,9 @@ footer {
 
 .about-card {
     margin: 20px 100px 40px;
-    border: none;
     border-radius: 10px;
     max-width: 1200px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 @media (min-width: 1400px) {
