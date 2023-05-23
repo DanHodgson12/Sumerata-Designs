@@ -307,7 +307,10 @@ footer {
     margin-bottom: 0;
 }
 
-.form-label, .form-check-label, .form-control, .btn {
+.form-label,
+.form-check-label,
+.form-control,
+.btn {
     font-family: 'Merriweather', serif;
 }
 
@@ -329,13 +332,34 @@ footer {
 }
 
 .about-card {
-    margin: 40px;
+    margin: 20px 100px 40px;
+    border: none;
+    border-radius: 10px;
+    max-width: 1200px;
+}
+
+@media (min-width: 1400px) {
+    .about-card {
+        margin: 20px auto 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-card {
+        margin: 20px 40px 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about-card {
+        margin: 20px 60px 40px;
+    }
 }
 
 @media (max-width: 576px) {
     .about-card {
-            margin: 20px;
-        }
+        margin: 20px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -344,13 +368,34 @@ footer {
     }
 }
 
-.about-container img {
-    float: right;
+.about-title {
+    font-size: 1rem;
 }
 
-.about-container .card-text {
+.about-text {
+    font-size: 0.9rem;
     text-align: justify;
 }
+
+@media (max-width: 375px) {
+    .about-title {
+        font-size: 0.9rem;
+    }
+
+    .about-text {
+        font-size: 0.7rem;
+    }
+
+    .about-body {
+        padding: 10px;
+    }
+}
+
+.about-image {
+    border-radius: 10px;
+}
+
+
 
 
 
