@@ -89,7 +89,7 @@ h6 {
 /* Added media query to make font size larger when above 479px */
 @media (min-width:480px) {
     #navbar-title h1 {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
 }
 
