@@ -10,7 +10,7 @@ body {
 }
 
 main {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0 5%;
 }
 
@@ -347,7 +347,7 @@ footer {
 /* About section */
 .about-container {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .about-container, .shops-container {
@@ -393,4 +393,8 @@ footer {
 .shops-cards {
     justify-content: space-evenly;
     margin-top: 0;
+}
+
+.shops-cards .col {
+    margin-bottom: 20px;
 }
