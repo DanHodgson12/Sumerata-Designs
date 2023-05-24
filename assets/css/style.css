@@ -388,9 +388,14 @@ footer {
 }
 
 /* Shops & Events */
-
-
 .shops-cards {
     justify-content: space-evenly;
     margin-top: 0;
+}
+
+.shop-image {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
