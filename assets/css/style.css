@@ -7,6 +7,9 @@
 
 body {
     background-color: #fefefc;
+}
+
+main {
     height: 100vh;
 }
 
