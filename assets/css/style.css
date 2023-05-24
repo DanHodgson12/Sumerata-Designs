@@ -393,9 +393,12 @@ footer {
     margin-top: 0;
 }
 
-.shop-image {
-    padding: 10px;
+.shop-image-1, .shop-image-2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.shop-image-1 {
+    padding: 10px;
 }
