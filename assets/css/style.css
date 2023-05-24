@@ -95,10 +95,10 @@ h6 {
         letter-spacing: 0.5px;
     }
 
-        .navbar-toggler {
-            padding-left: 5px;
-            padding-right: 5px;
-        }
+    .navbar-toggler {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 /* Added media query to make font size larger when above 479px */
@@ -346,12 +346,12 @@ footer {
 /* About section */
 .about-container {
     padding: 0;
+    max-width: 1200px;
 }
 
 .about-card {
     margin: 20px 100px 40px;
     border-radius: 10px;
-    max-width: 1200px;
     box-shadow: 5px 10px 8px #888888;
 }
 
@@ -414,5 +414,13 @@ footer {
 
 /* Shops & Events */
 .shops-container {
+    padding: 0;
+    max-width: 1200px;
+}
+
+.shops-container .row {
     margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-evenly;
 }
