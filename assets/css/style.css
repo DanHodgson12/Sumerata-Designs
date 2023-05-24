@@ -355,9 +355,9 @@ footer {
     max-width: 1200px;
 }
 
-.about-card {
-    border-radius: 10px;
-    box-shadow: 5px 10px 8px #888888;
+.shop-cards .card, .about-card {
+    border-radius: 15px;
+    box-shadow: 4px 5px 10px 0px #888888;
 }
 
 .about-title {
@@ -384,18 +384,13 @@ footer {
 }
 
 .about-image {
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 /* Shops & Events */
-.shops-cards {
+.shop-cards {
     justify-content: space-evenly;
     margin-top: 0;
-}
-
-.shops-cards .card {
-    border-radius: 20px;
-    box-shadow: 5px 10px 8px #888888;
 }
 
 .shop-image-1 {
