@@ -350,12 +350,14 @@ footer {
     margin-bottom: 30px;
 }
 
-.about-container, .shops-container {
+.about-container,
+.shops-container {
     padding: 0;
     max-width: 1200px;
 }
 
-.shop-cards .card, .about-card {
+.shop-cards .card,
+.about-card {
     border-radius: 15px;
     box-shadow: 4px 5px 10px 0px #888888;
 }
@@ -393,16 +395,24 @@ footer {
     margin-top: 0;
 }
 
-.shop-image-1 {
-    padding: 10px;
-}
-
-.shop-image-1, .shop-image-2 {
+.shop-cards .row {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.shop-image-2 img {
+.shop-cards img {
     border-radius: 20px;
+    width: 100%;
+}
+
+.shop-image-1 {
+    padding: 10px;
+}
+
+.shop-image-1,
+.shop-image-2,
+.shop-image-3 {
+    max-height: 300px;
+    max-width: 300px;
 }
