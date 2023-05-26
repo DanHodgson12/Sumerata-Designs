@@ -380,10 +380,24 @@ footer {
 }
 
 /* Shops & Events */
-.shop-cards .row {
+
+.shop-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-cards .card .row {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .row-cols-md-3>* {
+        flex: 0 0 auto;
+        width: 31.5%;
+    }
 }
 
 .shop-cards img {
