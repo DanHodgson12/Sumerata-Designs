@@ -11,7 +11,7 @@ body {
 
 main {
     min-height: 100vh;
-    margin: 0 5%;
+    margin: 0 3%;
 }
 
 h1,
@@ -365,7 +365,7 @@ footer {
     text-align: justify;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 320px) {
     .about-title {
         font-size: 0.9rem;
     }
@@ -383,18 +383,11 @@ footer {
 
 .shop-cards {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.shop-cards .card .row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media (min-width: 768px) {
-    .row-cols-md-3>* {
+@media (min-width: 576px) {
+    .row-cols-sm-3>* {
         flex: 0 0 auto;
         width: 31.5%;
     }
@@ -404,13 +397,16 @@ footer {
     width: 100%;
 }
 
-.shop-image-1,
-.shop-image-2,
-.shop-image-3 {
-    max-height: 300px;
-    max-width: 300px;
+.shop-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.shop-cards .card-body {
+.card-body {
     min-height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
 }
