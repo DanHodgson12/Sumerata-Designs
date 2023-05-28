@@ -29,8 +29,8 @@ h6 {
     padding-bottom: 5px;
     /* background-color: #c0c0c0; */
     background-color: #52cab1;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
 }
 
 .navbar-container {
@@ -190,8 +190,8 @@ h6 {
 footer {
     /* background-color: #c0c0c0; */
     background-color: #52cab1;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
 }
 
 .footer-row {
