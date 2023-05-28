@@ -27,7 +27,8 @@ h6 {
 .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #c0c0c0;
+    /* background-color: #c0c0c0; */
+    background-color: #52cab1;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -187,7 +188,8 @@ h6 {
 /*-------------- Footer --------------*/
 
 footer {
-    background-color: #c0c0c0;
+    /* background-color: #c0c0c0; */
+    background-color: #52cab1;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
