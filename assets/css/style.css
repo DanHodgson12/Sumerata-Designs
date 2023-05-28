@@ -11,7 +11,6 @@ body {
 
 main {
     min-height: 100vh;
-    margin: 0 3%;
 }
 
 h1,
@@ -356,26 +355,13 @@ footer {
     box-shadow: 4px 5px 10px 0px #888888;
 }
 
-.about-title {
-    font-size: 1rem;
-}
-
 .about-text {
     font-size: 0.9rem;
-    text-align: justify;
 }
 
 @media (max-width: 320px) {
-    .about-title {
-        font-size: 0.9rem;
-    }
-
     .about-text {
         font-size: 0.7rem;
-    }
-
-    .about-body {
-        padding: 10px;
     }
 }
 
