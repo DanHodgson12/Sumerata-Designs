@@ -29,8 +29,6 @@ h6 {
     padding-bottom: 5px;
     /* background-color: #c0c0c0; */
     background-color: #52cab1;
-    /* border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; */
 }
 
 .navbar-container {
@@ -67,7 +65,6 @@ h6 {
 #navbar-logo img {
     width: 80px;
     height: 80px;
-    border-radius: 5px;
 }
 
 /* I want the logo to appear smaller to match the header title when the screen size is smaller than 480px */
@@ -117,19 +114,19 @@ h6 {
 }
 
 #navbar-title h4 {
-    font-size: 0.7rem;
+    /* font-size: 0.7rem; */
     margin-top: 6px;
     margin-left: 10px;
-    font-weight: 300;
+    /* font-weight: 300; */
     letter-spacing: 0.5px;
 }
 
 /* Added media query to make font size larger when above 1200px */
-@media (min-width:1200px) {
+/* @media (min-width:1200px) {
     #navbar-title h4 {
         font-size: 0.9rem;
     }
-}
+} */
 
 #navbar-title h1,
 #navbar-title h4 {
@@ -190,8 +187,6 @@ h6 {
 footer {
     /* background-color: #c0c0c0; */
     background-color: #52cab1;
-    /* border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
 }
 
 .footer-row {
