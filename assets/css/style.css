@@ -357,6 +357,7 @@ footer {
 
 .about-text {
     font-size: 0.9rem;
+    text-align: justify;
 }
 
 @media (max-width: 320px) {
