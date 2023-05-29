@@ -180,11 +180,12 @@ h6 {
     float: right;
 }
 
+
 /* Nav Toggler */
 
 .navbar-toggler {
     background-color: #fefefc;
-    border: 2px solid #9f9f9f;
+    border: 2px solid #313131;
     margin-left: 5px;
 }
 
@@ -247,8 +248,8 @@ footer {
 .social-links li a i {
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 15%;
-    background-color: #797979;
-    color: #fefefc;
+    background-color: #5c5c5c;
+    color: #666e855c;
     width: 40px;
     text-align: center;
     line-height: 30px;
