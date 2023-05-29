@@ -28,7 +28,7 @@ h6 {
     padding-top: 5px;
     padding-bottom: 5px;
     /* background-color: #c0c0c0; */
-    background-color: #52cab1;
+    background-color: #D7BF6A;
 }
 
 .navbar-container {
@@ -85,6 +85,7 @@ h6 {
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: 1px;
+    color: #313131;
     text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 
@@ -113,13 +114,17 @@ h6 {
     }
 }
 
-#navbar-title h4 {
-    /* font-size: 0.7rem; */
+#navbar-title h6 {
+    color: #313131;
+}
+
+/* #navbar-title h4 {
+    font-size: 0.7rem;
     margin-top: 6px;
     margin-left: 10px;
-    /* font-weight: 300; */
+    font-weight: 300;
     letter-spacing: 0.5px;
-}
+} */
 
 /* Added media query to make font size larger when above 1200px */
 /* @media (min-width:1200px) {
@@ -145,7 +150,7 @@ h6 {
     font-weight: 500;
     margin-right: 4px;
     margin-left: 4px;
-    color: black;
+    color: #313131;
 }
 
 .nav-link {
@@ -154,6 +159,11 @@ h6 {
     flex-direction: column;
     transition: none;
 
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #313131;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
@@ -186,7 +196,7 @@ h6 {
 
 footer {
     /* background-color: #c0c0c0; */
-    background-color: #52cab1;
+    background-color: #D7BF6A;
 }
 
 .footer-row {
