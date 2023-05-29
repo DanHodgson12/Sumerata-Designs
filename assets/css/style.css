@@ -351,10 +351,14 @@ footer {
 }
 
 @media (max-width: 320px) {
-    .about-title, .shop-title {
+
+    .about-title,
+    .shop-title {
         font-size: 1.1rem;
     }
-    .about-text, .shop-text {
+
+    .about-text,
+    .shop-text {
         font-size: 0.8rem;
     }
 }
@@ -399,4 +403,10 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: stretch;
+}
+
+@media (max-width: 364px) {
+    .card-body {
+        min-height: 120px;
+    }
 }
