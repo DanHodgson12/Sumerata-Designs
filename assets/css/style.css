@@ -352,13 +352,11 @@ footer {
 
 @media (max-width: 320px) {
 
-    .about-title,
-    .shop-title {
+    .about-title {
         font-size: 1.1rem;
     }
 
-    .about-text,
-    .shop-text {
+    .about-text {
         font-size: 0.8rem;
     }
 }
@@ -397,16 +395,26 @@ footer {
     justify-content: center;
 }
 
-.card-body {
-    min-height: 160px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: stretch;
+.shop-body {
+    min-height: 150px;
 }
 
 @media (max-width: 364px) {
-    .card-body {
-        min-height: 120px;
+    .shop-body {
+        min-height: 125px;
     }
+    .shop-title {
+        font-size: 1.1rem;
+    }
+    .shop-text {
+        font-size: 0.8rem;
+    }
+}
+
+.shop-title {
+    height: 30%;
+}
+
+.shop-text {
+    height: 70%;
 }
