@@ -347,13 +347,15 @@ footer {
 }
 
 .about-text {
-    font-size: 0.9rem;
     text-align: justify;
 }
 
 @media (max-width: 320px) {
-    .about-text {
-        font-size: 0.7rem;
+    .about-title, .shop-title {
+        font-size: 1.1rem;
+    }
+    .about-text, .shop-text {
+        font-size: 0.8rem;
     }
 }
 
