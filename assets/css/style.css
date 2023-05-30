@@ -342,7 +342,8 @@ footer {
 }
 
 .shop-cards .card,
-.about-card {
+.about-card,
+.review-card {
     box-shadow: 2px 3px 6px 2px #888888;
 }
 
