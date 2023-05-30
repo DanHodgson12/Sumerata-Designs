@@ -337,7 +337,8 @@ footer {
 /* About section */
 
 .about-container,
-.shops-container {
+.shops-container,
+.review-container {
     max-width: 1200px;
 }
 
