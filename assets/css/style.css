@@ -405,9 +405,11 @@ footer {
     .shop-body {
         min-height: 125px;
     }
+
     .shop-title {
         font-size: 1.1rem;
     }
+
     .shop-text {
         font-size: 0.8rem;
     }
@@ -419,4 +421,20 @@ footer {
 
 .shop-text {
     height: 70%;
+}
+
+/* Reviews/Testimonies */
+
+@media (min-width: 415px) {
+    .review-stars {
+        display: inline;
+        float: right;
+    }
+    figcaption, .review-stars {
+        text-align: unset;
+    }
+}
+
+.review-stars {
+    margin-left: 17px;
 }
