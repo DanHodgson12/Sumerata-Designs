@@ -430,11 +430,14 @@ footer {
         display: inline;
         float: right;
     }
-    figcaption, .review-stars {
-        text-align: unset;
-    }
 }
 
 .review-stars {
     margin-left: 17px;
+}
+
+@media (max-width:320px) {
+    .blockquote {
+        font-size: 1rem;
+    }
 }
