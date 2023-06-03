@@ -22,10 +22,6 @@ h6 {
     margin: 0;
 }
 
-.grey-bg {
-    background-color: #5c5c5c7d;
-}
-
 /*-------------- Heading --------------*/
 
 .navbar {
@@ -347,7 +343,8 @@ footer {
 }
 
 .shop-cards .card,
-.about-card {
+.about-card,
+.review-cards {
     box-shadow: 2px 3px 6px 2px #888888;
 }
 
@@ -427,6 +424,10 @@ footer {
 }
 
 /* Reviews/Testimonies */
+
+.review-bg {
+    background-color: rgba(0, 0, 0, 0.15);
+}
 
 @media (max-width:320px) {
     .blockquote {
