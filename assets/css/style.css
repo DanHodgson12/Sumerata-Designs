@@ -22,6 +22,10 @@ h6 {
     margin: 0;
 }
 
+.grey-bg {
+    background-color: #5c5c5c7d;
+}
+
 /*-------------- Heading --------------*/
 
 .navbar {
@@ -343,8 +347,7 @@ footer {
 }
 
 .shop-cards .card,
-.about-card,
-.review-card {
+.about-card {
     box-shadow: 2px 3px 6px 2px #888888;
 }
 
