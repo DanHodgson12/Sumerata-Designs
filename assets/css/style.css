@@ -339,13 +339,13 @@ footer {
 .about-container,
 .shops-container,
 .review-container {
-    max-width: 1200px;
+    max-width: 1400px;
 }
 
 .shop-cards .card,
 .about-card,
 .review-cards {
-    box-shadow: 2px 3px 6px 2px #888888;
+    box-shadow: 2px 3px 8px 0px #888888;
 }
 
 .about-text {
@@ -374,6 +374,10 @@ footer {
 }
 
 /* Shops & Events */
+
+.shop-bg {
+    background-color: #2760d287;
+}
 
 .shop-cards {
     display: flex;
