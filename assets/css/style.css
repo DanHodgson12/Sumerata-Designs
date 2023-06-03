@@ -7,6 +7,7 @@
 
 body {
     background-color: #fefefc;
+    font-family: 'Merriweather', serif;
 }
 
 main {
@@ -378,10 +379,6 @@ footer {
 }
 
 /*..... Shops & Events .....*/
-
-/* .shop-bg {
-    background-color: #2760d287;
-} */
 
 /* This is to set the width of each card to take up only 31.5% of the width of the container instead of the default 33.33333% */
 @media (min-width: 576px) {
