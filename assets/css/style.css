@@ -393,6 +393,10 @@ footer {
     justify-content: space-between;
 }
 
+.shop-cards a:hover {
+    border-bottom: 3px solid black;
+}
+
 .shop-cards img {
     width: 100%;
 }
