@@ -1,4 +1,4 @@
-/* General Styling */
+/*----------------------------------- General Styling -----------------------------------*/
 
 * {
     padding: 0;
@@ -22,12 +22,17 @@ h6 {
     margin: 0;
 }
 
-/*-------------- Heading --------------*/
+.b-shadow {
+    box-shadow: 2px 3px 8px 0px #888888;
+}
+
+/*----------------------------------- Header -----------------------------------*/
+
+/*..... Navbar .....*/
 
 .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
-    /* background-color: #c0c0c0; */
     background-color: #edd479;
 }
 
@@ -36,7 +41,7 @@ h6 {
     padding-right: 10px;
 }
 
-/* I want the logo to less padding when the screen size is smaller than 361px, which helps the header content stay centered at lower screen sizes */
+/* I want the logo to have less padding when the screen size is smaller than 361px, which helps the header content stay centered at lower screen sizes */
 @media (max-width:360px) {
     .navbar-container {
         padding-left: 5px;
@@ -49,7 +54,7 @@ h6 {
     }
 }
 
-/* Nav Logo */
+/*..... Nav Logo .....*/
 
 #navbar-logo {
     margin-right: 5px;
@@ -75,7 +80,7 @@ h6 {
     }
 }
 
-/* Nav Title */
+/*..... Nav Title .....*/
 
 #navbar-title {
     margin-right: auto;
@@ -132,7 +137,7 @@ h6 {
     font-family: 'Merriweather', serif;
 }
 
-/* Nav Links */
+/*..... Nav Links .....*/
 
 .navbar-nav {
     margin-left: auto;
@@ -174,7 +179,7 @@ h6 {
 }
 
 
-/* Nav Toggler */
+/*..... Nav Toggler .....*/
 
 .navbar-toggler {
     background-color: #fefefc;
@@ -186,10 +191,9 @@ h6 {
     flex-grow: 0;
 }
 
-/*-------------- Footer --------------*/
+/*----------------------------------- Footer -----------------------------------*/
 
 footer {
-    /* background-color: #c0c0c0; */
     background-color: #edd479;
 }
 
@@ -211,6 +215,8 @@ footer {
     }
 }
 
+/*..... Copyright .....*/
+
 .copyright h6 {
     font-family: 'Merriweather', serif;
     font-weight: 200;
@@ -222,6 +228,8 @@ footer {
 .social-links {
     height: 30px;
 }
+
+/*..... Social Links .....*/
 
 .social-links ul {
     line-height: 30px;
@@ -248,14 +256,19 @@ footer {
     line-height: 30px;
 }
 
-/*-------------- Gallery --------------*/
+/*----------------------------------- Gallery -----------------------------------*/
 
-/* Idea 1 */
 #photo {
     line-height: 2;
     column-count: 4;
     column-gap: 15px;
     padding: 10px;
+}
+
+#photo img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
 }
 
 @media (max-width:1200px) {
@@ -276,15 +289,9 @@ footer {
     }
 }
 
-#photo img {
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 8px;
-}
+/*----------------------------------- Contact Us -----------------------------------*/
 
-/*-------------- Contact Us --------------*/
-
-/* Full background image */
+/*..... Full background image .....*/
 .contact-container {
     background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
     -webkit-background-size: cover;
@@ -295,7 +302,7 @@ footer {
     min-height: 550px;
 }
 
-/* Contact form */
+/*..... Contact form .....*/
 .form-card {
     background-color: #fcfbf7f2;
 }
@@ -332,21 +339,15 @@ footer {
     height: 35vh;
 }
 
-/*-------------- Main Page --------------*/
+/*----------------------------------- Main Page -----------------------------------*/
 
-/* About section */
-
-.about-container,
-.shops-container,
-.review-container {
+#about-container,
+#shops-container,
+#review-container {
     max-width: 1400px;
 }
 
-.shop-cards .card,
-.about-card,
-.review-cards {
-    box-shadow: 2px 3px 8px 0px #888888;
-}
+/*..... About section .....*/
 
 .about-text {
     text-align: justify;
@@ -373,22 +374,23 @@ footer {
     }
 }
 
-/* Shops & Events */
+/*..... Shops & Events .....*/
 
 .shop-bg {
     background-color: #2760d287;
 }
 
-.shop-cards {
-    display: flex;
-    justify-content: space-between;
-}
-
+/* This is to set the width of each card to take up only 31.5% of the width of the container instead of the default 33.33333% */
 @media (min-width: 576px) {
     .row-cols-sm-3>* {
         flex: 0 0 auto;
         width: 31.5%;
     }
+}
+
+.shop-cards {
+    display: flex;
+    justify-content: space-between;
 }
 
 .shop-cards img {
@@ -427,7 +429,7 @@ footer {
     height: 70%;
 }
 
-/* Reviews/Testimonies */
+/*..... Reviews/Testimonies .....*/
 
 .review-bg {
     background-color: rgba(0, 0, 0, 0.15);
@@ -455,4 +457,3 @@ footer {
     margin-left: 17px;
     margin-right: 17px;
 }
-
