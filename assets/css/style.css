@@ -341,12 +341,12 @@ footer {
 
 /*----------------------------------- Main Page -----------------------------------*/
 
-#about-container,
-#review-container {
+.about-card,
+.review-cards {
     max-width: 1400px;
 }
 
-#shops-container {
+.shop-cards {
     max-width: 1200px;
 }
 
