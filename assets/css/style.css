@@ -394,7 +394,7 @@ footer {
 }
 
 .shop-cards a:hover {
-    border-bottom: 3px solid black;
+    box-shadow: 2px 3px 6px 0px #494949;
 }
 
 .shop-cards img {
@@ -409,6 +409,7 @@ footer {
 
 .shop-body {
     min-height: 150px;
+    color: black;
 }
 
 @media (max-width: 364px) {
