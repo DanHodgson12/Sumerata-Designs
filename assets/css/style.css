@@ -353,22 +353,8 @@ footer {
 
 /*..... About section .....*/
 
-@media (min-width:992px) {
-    .about-body {
-        padding: 12px 16px;
-    }
-}
-
-/* The way the image and about body is layed out causes an issue at the large breakpoint, where the images stays 
-in proportion to height and width of the column, but the about text pushes the entire card body down below the 
-image causing a gap. This is to prevent this happening at the large breakpoint. */
-
 .about-text {
     text-align: justify;
-}
-
-.about-text p {
-    margin-bottom: 0.5rem;
 }
 
 @media (max-width: 320px) {
@@ -382,10 +368,15 @@ image causing a gap. This is to prevent this happening at the large breakpoint. 
     }
 }
 
-@media (min-width: 1030px) {
-    .about-title {
-        margin: 20px 0 10px;
-    }
+/* Decided to make about image a background image so it scales proportionally with screen size
+and stays centered at all times. */
+.about-image {
+    background: url("../images/home-page/P&J.jpeg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 33vh;
 }
 
 .about-image {
@@ -490,3 +481,7 @@ image causing a gap. This is to prevent this happening at the large breakpoint. 
     for help giving the stars a slight border in order to make them stand out, then adjusted
     the property in google dev tools */
 }
+
+
+
+
