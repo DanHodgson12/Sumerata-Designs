@@ -512,3 +512,15 @@ and stays centered at all times. */
         border-radius: 0 0 8px 0;
     }
 }
+
+/*..... Map .....*/
+
+
+#map {
+    height: 320px;
+}
+
+#map iframe {
+   height: 100%;
+    width: 100%;
+}
