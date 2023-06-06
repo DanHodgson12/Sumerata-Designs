@@ -256,6 +256,16 @@ footer {
     width: 40px;
     text-align: center;
     line-height: 30px;
+    /* Used 'filling in footer content' video from the Mini Project in the course module for help here. */
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #fefefc;
+    color: #5c5c5c;
 }
 
 /*----------------------------------- Gallery -----------------------------------*/
@@ -497,6 +507,7 @@ and stays centered at all times. */
     #customer-img {
         border-radius: 0 0 0 8px;
     }
+
     #certi-img {
         border-radius: 0 0 8px 0;
     }
