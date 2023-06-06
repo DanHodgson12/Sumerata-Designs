@@ -488,3 +488,16 @@ and stays centered at all times. */
     for help giving the stars a slight border in order to make them stand out, then adjusted
     the property in google dev tools */
 }
+
+#certi-img {
+    border-radius: 0 0 8px 8px;
+}
+
+@media (min-width:768px) {
+    #customer-img {
+        border-radius: 0 0 0 8px;
+    }
+    #certi-img {
+        border-radius: 0 0 8px 0;
+    }
+}
