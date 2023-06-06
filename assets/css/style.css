@@ -12,6 +12,7 @@ body {
 
 main {
     min-height: 100vh;
+    background-color: #F5EFE7;
 }
 
 h1,
@@ -351,6 +352,12 @@ footer {
     max-width: 1200px;
 }
 
+.about-card,
+.shop-cards .card,
+.review-card {
+    background-color: #fefefc;
+}
+
 /*..... About section .....*/
 
 .about-text {
@@ -481,7 +488,3 @@ and stays centered at all times. */
     for help giving the stars a slight border in order to make them stand out, then adjusted
     the property in google dev tools */
 }
-
-
-
-
