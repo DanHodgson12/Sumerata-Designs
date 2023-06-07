@@ -274,7 +274,7 @@ footer {
     line-height: 2;
     column-count: 4;
     column-gap: 15px;
-    padding: 10px;
+    padding: 10px 10px 0;
 }
 
 #photo img {
@@ -514,7 +514,6 @@ and stays centered at all times. */
 }
 
 /*..... Map .....*/
-
 
 #map {
     height: 320px;
