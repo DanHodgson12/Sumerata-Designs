@@ -4,29 +4,34 @@
     padding: 0;
     margin: 0;
 }
+/* This is to remove all default margins and padding for all HTMl elements */
 
 body {
     background-color: #fefefc;
     font-family: 'Merriweather', serif;
 }
+/* I used the same color as the navbar logo for the general background color of the body for each page, but 
+changed bg-color for the main page. I also changed the default font-family for the project */
 
 main {
     min-height: 100vh;
     background-color: #F5EFE7;
 }
+/* Here I changed the background color of the main page to a nice beige colour */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
     margin: 0;
-}
+} */
 
 .b-shadow {
     box-shadow: 2px 3px 8px 0px #888888;
 }
+/* This is some general styling for a box-shadow, which I added to all the sections on the main page to make them stand out */
 
 /*----------------------------------- Header -----------------------------------*/
 
@@ -37,13 +42,14 @@ h6 {
     padding-bottom: 5px;
     background-color: #edd479;
 }
+/* Here I gave the header some padding to space out the content from the x and y axis */
 
 .navbar-container {
     padding-left: 10px;
     padding-right: 10px;
 }
+/* I used padding for the container of the navbar content separately in order to adjust padding for different screen sizes, but keep the top and bottom padding the same at all times */
 
-/* I want the logo to have less padding when the screen size is smaller than 361px, which helps the header content stay centered at lower screen sizes */
 @media (max-width:360px) {
     .navbar-container {
         padding-left: 5px;
@@ -55,46 +61,58 @@ h6 {
         padding-bottom: 0;
     }
 }
+/* I want the logo to have less padding when the screen size is smaller than 361px, which helps the header content stay centered at lower screen sizes */
 
 /*..... Nav Logo .....*/
 
 #navbar-logo {
     margin-right: 5px;
 }
+/* Added some margin-right to the logo to give the title some space */
 
-/* I don't want the logo to show on screen sizes smaller than 334px as it messes with the layout of the navbar toggler and header title */
 @media (max-width:333px) {
     #navbar-logo {
         display: none;
     }
 }
+/* I don't want the logo to show on screen sizes smaller than 334px as it messes with the layout of the navbar toggler and header title */
 
 #navbar-logo img {
     width: 80px;
     height: 80px;
 }
+/* Here I set the size of the logo to stay the same on all but small screen sizes */
 
-/* I want the logo to appear smaller to match the header title when the screen size is smaller than 480px */
 @media (max-width:479px) {
     #navbar-logo img {
         width: 60px;
         height: 60px;
     }
 }
+/* I want the logo to appear smaller to match the header title when the screen size is smaller than 480px */
 
 /*..... Nav Title .....*/
 
 #navbar-title {
     margin-right: auto;
 }
+/* I used this to keep the title hugging the Logo */
+
+#navbar-title h1,
+#navbar-title h6 {
+    margin-bottom: 0px;
+    font-family: 'Merriweather', serif;
+    color: #313131;
+}
+/* Removed default margin, added font-family and text-color to the title */
 
 #navbar-title h1 {
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: 1px;
-    color: #313131;
     text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
+/* Added some general styling to the navbar title and added text-shadow to give an embossed effect */
 
 @media (max-width:360px) {
     #navbar-title h1 {
@@ -106,44 +124,40 @@ h6 {
         padding-right: 5px;
     }
 }
+/* Added this to make the title narrower and the mavbar-toggler have less padding at very small screen sizes */
 
-/* Added media query to make font size larger when above 479px */
 @media (min-width:480px) {
     #navbar-title h1 {
         font-size: 1.9rem;
     }
 }
+/* Added media query to make font size larger when above 479px */
 
-/* Added media query to make font size larger when above 1400px */
 @media (min-width:1400px) {
     #navbar-title h1 {
         font-size: 2.2rem;
     }
 }
+/* Added media query to make font size larger when above 1400px */
 
 #navbar-title h6 {
-    color: #313131;
     letter-spacing: 0.5px;
 }
+/* Added separate letter-spacing for the h6 under the title */
 
-/* Added media query to make font size larger when above 1200px */
 @media (max-width:479px) {
     #navbar-title h6 {
         font-size: 0.8rem;
     }
 }
-
-#navbar-title h1,
-#navbar-title h6 {
-    margin-bottom: 0px;
-    font-family: 'Merriweather', serif;
-}
+/* Added media query to make font size larger when above 1200px */
 
 /*..... Nav Links .....*/
 
 .navbar-nav {
     margin-left: auto;
 }
+/* This is to push the navbar links and toggle to the right of the header */
 
 .navbar-nav a {
     font-family: 'Merriweather', serif;
@@ -152,19 +166,21 @@ h6 {
     margin-left: 4px;
     color: #313131;
 }
+/* Styling for each of the nav links */
 
 .nav-link {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     transition: none;
-
 }
+/* Used flex properties to keep nav-links push to the right of the container */
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
     color: #313131;
 }
+/* Set underline color to the same as the header when a nav-link is hovered over */
 
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0;
@@ -172,6 +188,7 @@ h6 {
     width: fit-content;
     float: right;
 }
+/* This is to keep the navlinks floating to the right when navbar is expanded, also removed default padding */
 
 .nav-underline .nav-link.active,
 .nav-underline .show>.nav-link {
@@ -179,6 +196,7 @@ h6 {
     width: fit-content;
     float: right;
 }
+/* Set underline color to the same as the header when a page is 'active' */
 
 
 /*..... Nav Toggler .....*/
@@ -188,34 +206,38 @@ h6 {
     border: 2px solid #313131;
     margin-left: 5px;
 }
+/* Set background-color, border and margin for the navbar toggler */
 
 .navbar-collapse {
     flex-grow: 0;
 }
+/* This is to stop the nav-links returning to the middle of the container when expanded */
 
 /*----------------------------------- Footer -----------------------------------*/
 
 footer {
     background-color: #edd479;
 }
+/* Set color of footer to match the header */
 
 .footer-row {
     padding: 20px 0;
 }
+/* Added equal padding to top and bottom of footer */
 
-/* I want the footer to have less top padding when the screen size is smaller than 480px */
 @media (max-width:479px) {
     .footer-row {
         padding-top: 10px;
     }
 }
+/* I want the footer to have less top padding when the screen size is smaller than 480px */
 
-/* This is to leave less space beneath the copyright on screen sizes lower than 768px */
 @media (max-width:767px) {
     .footer-row {
         padding-bottom: 10px;
     }
 }
+/* This is to leave less space beneath the copyright on screen sizes lower than 768px */
 
 /*..... Copyright .....*/
 
@@ -225,11 +247,13 @@ footer {
     font-size: 13px;
     line-height: 30px;
 }
+/* General styling for the copyright text */
 
 .copyright,
 .social-links {
     height: 30px;
 }
+/* This is to make the copyright info and social links sit centrally in the footer */
 
 /*..... Social Links .....*/
 
@@ -237,16 +261,18 @@ footer {
     line-height: 30px;
     margin-bottom: 0;
 }
+/* This is to make each list item/social link match the height of the container */
 
-/* Here I got help from this page 'https: //stackoverflow.com/questions/5449872/css-notlast-childafter-selector' in order to override the CSS style adding spacing to the social links */
 .list-inline-item:not(:last-child) {
     content: '';
 }
+/* Here I got help from this page 'https: //stackoverflow.com/questions/5449872/css-notlast-childafter-selector' in order to override the CSS style adding spacing to the social links */
 
 .list-inline-item {
     margin-right: 1px;
     margin-left: 1px;
 }
+/* Added left and right margin to each social link item to space them out a bit */
 
 .social-links li a i {
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -256,17 +282,20 @@ footer {
     width: 40px;
     text-align: center;
     line-height: 30px;
-    /* Used 'filling in footer content' video from the Mini Project in the course module for help here. */
+    /* Added styling to each social link - used the same colours as the header nav-links for the icon and background colors to match styling */
+    
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    /* Used 'filling in footer content' video from the Mini Project in the course module for help here. */
 }
 
 .social-links li a i:hover {
     background-color: #fefefc;
     color: #5c5c5c;
 }
+/* The colors of the icon and the background of each social link switch places when hovered over */
 
 /*----------------------------------- Gallery -----------------------------------*/
 
@@ -276,12 +305,14 @@ footer {
     column-gap: 15px;
     padding: 10px 10px 0;
 }
+/* Here I set the column count and spacing for the gallery images */
 
 #photo img {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 8px;
 }
+/* Each gallery image fills width of each column - also gave each image a rounded border */
 
 @media (max-width:1200px) {
     #photo {
@@ -300,6 +331,7 @@ footer {
         column-count: 1;
     }
 }
+/* Added media queries to reduce column count as the screen size gets smaller, ending with 1 column for mobile */
 
 /*----------------------------------- Contact Us -----------------------------------*/
 
@@ -313,6 +345,7 @@ footer {
     height: 100vh;
     min-height: 550px;
 }
+/* Here I set a background image to covere the main body - used a stock image downloaded from  */
 
 /*..... Contact form .....*/
 .form-card {
