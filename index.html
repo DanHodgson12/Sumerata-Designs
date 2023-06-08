@@ -9,6 +9,9 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap -->
 
     <!-- Google Fonts -->
@@ -32,23 +35,24 @@
 
 <body>
     <header>
+        <!---------------------------------- Header/NavBar ------------------------------------>
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid navbar-container">
 
+                <!--- NavBar Logo ---->
                 <a class="navbar-brand" id="navbar-logo" href="index.html">
                     <img src="assets/images/logo/sumersata-logo.jpg" alt="Sumersata Logo" class="rounded-2 shadow-sm">
                 </a>
+                <!-------------------->
 
+                <!--- NavBar Title --->
                 <a class="navbar-brand mx-auto mx-md-0 me-md-auto" id="navbar-title" href="index.html">
                     <h1>Sumersata Designs</h1>
                     <h6 class="fw-normal mt-1 ms-3">Crafting with a passion</h6>
                 </a>
+                <!-------------------->
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <!------ NavBar ------>
                 <div class="collapse navbar-collapse mx-md-auto me-lg-5" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto nav-underline me-auto mb-0">
                         <li class="nav-item">
@@ -62,16 +66,28 @@
                         </li>
                     </ul>
                 </div>
+                <!-------------------->
+
+                <!-- NavBar Toggler -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-------------------->
 
             </div>
         </nav>
+        <!------------------------------------------------------------------------------------->
     </header>
 
     <main>
-        <!-- About Us -->
+        <!------------------------------------- About Us -------------------------------------->
         <div id="about-container" class="container-fluid py-2 py-sm-3 px-sm-4">
             <div class="card about-card rounded-3 border-0 b-shadow mx-auto">
                 <div class="row m-0">
+
+                    <!-- About Us Text --->
                     <div class="col-lg-4 order-2 order-lg-1 p-0">
                         <div class="card-body about-body p-3 p-sm-4">
                             <h4 class="card-title about-title text-center mb-2">Who We Are</h4>
@@ -90,24 +106,35 @@
                             </div>
                         </div>
                     </div>
+                    <!-------------------->
+
+                    <!-- About Us Image -->
                     <div class="col-lg-8 order-1 order-lg-2 p-0 ">
                         <div class="about-image h-100"></div>
                     </div>
+                    <!-------------------->
                 </div>
             </div>
         </div>
-        <!-- About Us -->
+        <!------------------------------------------------------------------------------------->
 
-        <!-- Shop/Courses/Events -->
+        <!-------------------------------- Shop/Courses/Events -------------------------------->
         <div id="shops-container" class="container-fluid pt-2 pb-sm-1 px-sm-4">
             <div class="row row-cols-1 row-cols-sm-3 shop-cards mx-auto">
 
+                <!---- Etsy/Shop Card ---->
                 <div class="col p-0">
                     <div class="card mb-3 rounded-3 border-0 b-shadow">
-                        <a href="https://www.etsy.com/shop/SumersataDesigns" class="row g-0 text-decoration-none" target="_blank">
+                        <a href="https://www.etsy.com/shop/SumersataDesigns" class="row g-0 text-decoration-none"
+                            target="_blank">
+
+                            <!-- Image -->
                             <div class="col-5 col-sm-12 col-lg-6 shop-image py-2 ps-2 pe-sm-2 pe-lg-0">
                                 <img src="assets/images/home-page/ETSY.jpg" class="img-fluid rounded-3" alt="...">
                             </div>
+                            <!----------->
+
+                            <!-- Text --->
                             <div class="col-7 col-sm-12 col-lg-6">
                                 <div class="card-body shop-body h-100 text-center px-2 py-0">
                                     <h5 class="shop-title d-flex align-items-end justify-content-center">Shop</h5>
@@ -116,18 +143,26 @@
                                     </p>
                                 </div>
                             </div>
+                            <!----------->
                         </a>
                     </div>
                 </div>
+                <!------------------------>
 
+                <!----- Courses Card ----->
                 <div class="col p-0">
                     <div class="card mb-3 rounded-3 border-0 b-shadow text-decoration-none">
                         <a href="https://www.craftcourses.com/in-person-and-online-courses-craft-kits-and-handcrafted-gifts?keyword=sumersata"
                             class="row g-0 text-decoration-none" target="_blank">
+
+                            <!-- Image -->
                             <div class="col-5 col-sm-12 col-lg-6 shop-image py-2 ps-2 pe-sm-2 pe-lg-0">
                                 <img src="assets/images/home-page/craftcourses.jpg" class="img-fluid rounded-3"
                                     alt="...">
                             </div>
+                            <!----------->
+
+                            <!-- Text --->
                             <div class="col-7 col-sm-12 col-lg-6">
                                 <div class="card-body shop-body h-100 text-center px-2 py-0">
                                     <h5 class="shop-title d-flex align-items-end justify-content-center">Courses
@@ -137,16 +172,26 @@
                                     </p>
                                 </div>
                             </div>
+                            <!----------->
+
                         </a>
                     </div>
                 </div>
+                <!------------------------>
 
+                <!------ Events Card ----->
                 <div class="col p-0">
                     <div class="card mb-3 rounded-3 border-0 b-shadow text-decoration-none">
-                        <a href="https://www.facebook.com/SumersataDesigns" class="row g-0 text-decoration-none" target="_blank">
+                        <a href="https://www.facebook.com/SumersataDesigns" class="row g-0 text-decoration-none"
+                            target="_blank">
+
+                            <!-- Image -->
                             <div class="col-5 col-sm-12 col-lg-6 shop-image py-2 ps-2 pe-sm-2 pe-lg-0">
                                 <img src="assets/images/home-page/market.jpg" class="img-fluid rounded-3" alt="...">
                             </div>
+                            <!----------->
+
+                            <!-- Text --->
                             <div class="col-7 col-sm-12 col-lg-6">
                                 <div class="card-body shop-body h-100 text-center px-2 py-0">
                                     <h5 class="shop-title d-flex align-items-end justify-content-center">Events</h5>
@@ -155,29 +200,33 @@
                                     </p>
                                 </div>
                             </div>
+                            <!----------->
+
                         </a>
                     </div>
                 </div>
+                <!------------------------>
 
             </div>
         </div>
-        <!-- Shop/Courses/Events -->
+        <!------------------------------------------------------------------------------------->
 
-        <!-- Reviews/Testimonies -->
+        <!-------------------------------- Reviews/Testimonies -------------------------------->
         <div id="review-container" class="container-fluid review-bg py-3 px-sm-4">
             <div class="review-cards rounded-3 b-shadow mx-auto">
-                <div class="row mx-0">
 
+                <!--------- Reviews Section --------->
+                <div class="row mx-0">
                     <div class="col p-0">
                         <div class="card review-card rounded-top-3 rounded-bottom-0 border-0">
                             <div class="row g-0">
                                 <div class="col">
                                     <div class="card-body">
-
                                         <div class="card-title review-title mb-3">
                                             <h6>Here's what our customers had to say:</h6>
                                         </div>
 
+                                        <!-- Review 1 -->
                                         <figure class="text">
                                             <blockquote class="blockquote mb-1">
                                                 <p>"This course gets a resounding 10 out of 5 stars.
@@ -199,7 +248,9 @@
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                         </figure>
+                                        <!-------------->
 
+                                        <!-- Review 2 -->
                                         <figure class="text">
                                             <blockquote class="blockquote mb-1">
                                                 <p>"Janet and Pauline are absolutely brilliant tutors
@@ -220,7 +271,9 @@
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                         </figure>
+                                        <!-------------->
 
+                                        <!-- Review 3 -->
                                         <figure class="text">
                                             <blockquote class="blockquote mb-1">
                                                 <p>"My daughter and I had lots of fun and came away
@@ -241,33 +294,46 @@
                                                 <i class="fa-solid fa-star"></i>
                                             </div>
                                         </figure>
-
+                                        <!-------------->
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!----------------------------------->
 
+                <!-- Customer & Certificate Images -->
                 <div class="row row-cols-1 row-cols-md-2 mx-0">
+
+                    <!-- Customer Image -->
                     <div class="col p-0">
                         <div class="card p-0 border-0">
                             <img src="assets/images/home-page/craftcoursecustomer.jpeg" id="customer-img"
                                 class="img-fluid img-center" alt="...">
                         </div>
                     </div>
+                    <!-------------------->
+
+                    <!-- Certificate Image -->
                     <div class="col p-0">
                         <div class="card p-0 border-0">
                             <img src="assets/images/home-page/Certificate.jpeg" id="certi-img" class="img-fluid"
                                 alt="...">
                         </div>
                     </div>
+                    <!----------------------->
+
                 </div>
+                <!----------------------------------->
+
             </div>
         </div>
-        <!-- Reviews/Testimonies -->
+        <!------------------------------------------------------------------------------------->
 
-        <!-- Map -->
+        <!------------------------------------ Address/Map ------------------------------------>
+
+        <!----- Address ----->
         <div id="address-container" class="container-fluid py-4 px-sm-4">
             <div class="div text-center ">
                 <h6 class="mb-2">Come find us!</h6>
@@ -275,44 +341,62 @@
                 </address>
             </div>
         </div>
+        <!------------------->
+
+        <!------- Map ------->
         <div class="p-0" id="map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1243.1481036308649!2d-2.888817347375968!3d51.09512938634888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48720fcf55075ab7%3A0x4bd21cf40d759871!2sNurture%20Shed!5e0!3m2!1sen!2suk!4v1686078431374!5m2!1sen!2suk"
                 allowfullscreen="" loading="lazy"></iframe>
         </div>
         <!-- I used google maps to embed the code for this interactive map then changed some of the styling -->
+        <!------------------->
 
-        <!-- Map -->
-
+        <!------------------------------------------------------------------------------------->
     </main>
 
     <footer class="container-fluid">
+        <!------------------------------------- Footer ---------------------------------------->
         <div class="row text-center footer-row">
 
+            <!------- Copyright Info ------->
             <div class="order-2 order-md-1 mt-2 mt-md-0 col-md-6 copyright">
                 <h6 class="">&copy; Copyright 2023 Sumersata Designs</h6>
             </div>
+            <!------------------------------>
 
+            <!-------- Social Links -------->
             <div class="order-1 order-md-2 col-md-6 social-links">
                 <ul class="list-inline">
+
+                    <!--- Etsy -------->
                     <li class="list-inline-item">
                         <a href="https://www.etsy.com/shop/SumersataDesigns" target="_blank">
                             <i class="fa-brands fa-etsy" aria-hidden="true"></i>
                             <span class="sr-only">Etsy</span>
                         </a>
                     </li>
+                    <!----------------->
+
+                    <!--- Facebook ---->
                     <li class="list-inline-item">
                         <a href="https://www.facebook.com/SumersataDesigns" target="_blank">
                             <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
+                    <!----------------->
+
+                    <!--- Instagram --->
                     <li class="list-inline-item">
                         <a href="https://www.instagram.com/sumersata.designs/" target="_blank">
                             <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
+                    <!----------------->
+
+                    <!--- Twitter ----->
                     <!-- Need to add actual twitter link to Sumersata page -->
                     <li class="list-inline-item">
                         <a href="https://twitter.com/" target="_blank">
@@ -320,6 +404,9 @@
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
+                    <!----------------->
+
+                    <!--- Youtube ----->
                     <!-- Need to add actual youtube link to Sumersata page -->
                     <li class="list-inline-item">
                         <a href="https://www.youtube.com/" target="_blank">
@@ -327,20 +414,15 @@
                             <span class="sr-only">YouTube</span>
                         </a>
                     </li>
+                    <!----------------->
+
                 </ul>
             </div>
+            <!------------------------------>
 
         </div>
+        <!------------------------------------------------------------------------------------->
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
-
-
-<!-- <div class="col-lg-7 col-xl-8 order-1 order-lg-2 p-0">
-    <img src="assets/images/home-page/P&J.jpeg" class="img-fluid about-image" alt="...">
- </div> -->
