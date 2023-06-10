@@ -366,17 +366,31 @@ footer {
 
 /*----------------------------------- Contact Us -----------------------------------*/
 
+/* I used this website for help here (https: //stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) */
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contact-bg {
+    background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
 /*..... Full background image .....*/
 
-.contact-container {
+/* .contact-container {
     background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
-    min-height: 550px;
-}
+} */
 
 /* Here I set a background image to covere the main body - used a stock image downloaded from Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-4614204/) */
 
