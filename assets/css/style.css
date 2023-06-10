@@ -529,12 +529,12 @@ a slight border in order to make the stars stand out, then adjusted the property
 
 }
 
+/* Used different border-radius properties depending on screensize, as the orientation of 
+the review images change for medium screen sizes and above */
 #certi-img {
     border-radius: 0 0 8px 8px;
 }
 
-/* Used different border-radius properties depending on screensize, as the orientation of 
-the image and text of the about card change for large screen sizes and above */
 @media (min-width:768px) {
     #customer-img {
         border-radius: 0 0 0 8px;
