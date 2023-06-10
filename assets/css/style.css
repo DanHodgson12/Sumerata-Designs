@@ -91,7 +91,6 @@ as it messes with the layout of the navbar toggler and header title */
 /* Removed default margin, added font-family and text-color to the title */
 #navbar-title h1,
 #navbar-title h6 {
-    margin-bottom: 0px;
     font-family: 'Merriweather', serif;
     color: #313131;
 }
