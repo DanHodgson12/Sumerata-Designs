@@ -1,52 +1,50 @@
 /*----------------------------------- General Styling -----------------------------------*/
 
+/* This is to remove all default margins and padding for all HTMl elements */
 * {
     padding: 0;
     margin: 0;
 }
 
-/* This is to remove all default margins and padding for all HTMl elements */
-
+/* I used the same color as the navbar logo for the general background color of the body for each page, but 
+changed bg-color for the main page. I also changed the default font-family for the project */
 body {
     background-color: #fefefc;
     font-family: 'Merriweather', serif;
     min-height: 100vh;
 }
 
-/* I used the same color as the navbar logo for the general background color of the body for each page, but 
-changed bg-color for the main page. I also changed the default font-family for the project */
-
+/* Here I changed the background color of the main page to a nice beige colour */
 main {
     background-color: #F5EFE7;
 }
 
-/* Here I changed the background color of the main page to a nice beige colour */
-
+/* This is some general styling for a box-shadow, which I added to all the sections on 
+the main page to make them stand out */
 .b-shadow {
     box-shadow: 2px 3px 8px 0px #888888;
 }
 
-/* This is some general styling for a box-shadow, which I added to all the sections on the main page to make them stand out */
-
 /*----------------------------------- Header -----------------------------------*/
 
-/*..... Navbar .....*/
+/*.......... Navbar ..........*/
 
+/* Here I gave the header some padding to space out the content from the x and y axis */
 .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #edd479;
 }
 
-/* Here I gave the header some padding to space out the content from the x and y axis */
-
+/* I used padding for the container of the navbar content separately in order to adjust padding 
+for different screen sizes, but keep the top and bottom padding the same at all times */
 .navbar-container {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-/* I used padding for the container of the navbar content separately in order to adjust padding for different screen sizes, but keep the top and bottom padding the same at all times */
-
+/* I want the logo to have less padding when the screen size is smaller than 361px, which 
+helps the header content stay centered at lower screen sizes */
 @media (max-width:360px) {
     .navbar-container {
         padding-left: 5px;
@@ -59,31 +57,28 @@ main {
     }
 }
 
-/* I want the logo to have less padding when the screen size is smaller than 361px, which helps the header content stay centered at lower screen sizes */
+/*.......... Nav Logo ..........*/
 
-/*..... Nav Logo .....*/
-
+/* Added some margin-right to the logo to give the title some space */
 #navbar-logo {
     margin-right: 5px;
 }
 
-/* Added some margin-right to the logo to give the title some space */
-
+/* I don't want the logo to show on screen sizes smaller than 334px 
+as it messes with the layout of the navbar toggler and header title */
 @media (max-width:333px) {
     #navbar-logo {
         display: none;
     }
 }
 
-/* I don't want the logo to show on screen sizes smaller than 334px as it messes with the layout of the navbar toggler and header title */
-
+/* Here I set the size of the logo to stay the same on all but small screen sizes */
 #navbar-logo img {
     width: 80px;
     height: 80px;
 }
 
-/* Here I set the size of the logo to stay the same on all but small screen sizes */
-
+/* I want the logo to appear smaller to match the header title when the screen size is smaller than 480px */
 @media (max-width:479px) {
     #navbar-logo img {
         width: 60px;
@@ -91,16 +86,14 @@ main {
     }
 }
 
-/* I want the logo to appear smaller to match the header title when the screen size is smaller than 480px */
+/*.......... Nav Title ..........*/
 
-/*..... Nav Title .....*/
-
+/* I used this to keep the title hugging the Logo */
 #navbar-title {
     margin-right: auto;
 }
 
-/* I used this to keep the title hugging the Logo */
-
+/* Removed default margin, added font-family and text-color to the title */
 #navbar-title h1,
 #navbar-title h6 {
     margin-bottom: 0px;
@@ -108,8 +101,7 @@ main {
     color: #313131;
 }
 
-/* Removed default margin, added font-family and text-color to the title */
-
+/* Added some general styling to the navbar title and added text-shadow to give an embossed effect */
 #navbar-title h1 {
     font-size: 1.3rem;
     font-weight: 500;
@@ -117,8 +109,7 @@ main {
     text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 
-/* Added some general styling to the navbar title and added text-shadow to give an embossed effect */
-
+/* Added this to make the title narrower and the mavbar-toggler have less padding at very small screen sizes */
 @media (max-width:360px) {
     #navbar-title h1 {
         letter-spacing: 0.5px;
@@ -130,46 +121,40 @@ main {
     }
 }
 
-/* Added this to make the title narrower and the mavbar-toggler have less padding at very small screen sizes */
-
+/* Added media query to make font size larger when above 479px */
 @media (min-width:480px) {
     #navbar-title h1 {
         font-size: 1.9rem;
     }
 }
 
-/* Added media query to make font size larger when above 479px */
-
+/* Added media query to make font size larger when above 1400px */
 @media (min-width:1400px) {
     #navbar-title h1 {
         font-size: 2.2rem;
     }
 }
 
-/* Added media query to make font size larger when above 1400px */
-
+/* Added separate letter-spacing for the h6 under the title */
 #navbar-title h6 {
     letter-spacing: 0.5px;
 }
 
-/* Added separate letter-spacing for the h6 under the title */
-
+/* Added media query to make font size larger when above 1200px */
 @media (max-width:479px) {
     #navbar-title h6 {
         font-size: 0.8rem;
     }
 }
 
-/* Added media query to make font size larger when above 1200px */
+/*.......... Nav Links ..........*/
 
-/*..... Nav Links .....*/
-
+/* This is to push the navbar links and toggle to the right of the header */
 .navbar-nav {
     margin-left: auto;
 }
 
-/* This is to push the navbar links and toggle to the right of the header */
-
+/* Styling for each of the nav links */
 .navbar-nav a {
     font-family: 'Merriweather', serif;
     font-weight: 500;
@@ -178,8 +163,7 @@ main {
     color: #313131;
 }
 
-/* Styling for each of the nav links */
-
+/* Used flex properties to keep nav-links push to the right of the container */
 .nav-link {
     display: flex;
     align-items: flex-end;
@@ -187,15 +171,13 @@ main {
     transition: none;
 }
 
-/* Used flex properties to keep nav-links push to the right of the container */
-
+/* Set underline color to the same as the header when a nav-link is hovered over */
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
     color: #313131;
 }
 
-/* Set underline color to the same as the header when a nav-link is hovered over */
-
+/* This is to keep the navlinks floating to the right when navbar is expanded, also removed default padding */
 .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0;
@@ -203,8 +185,7 @@ main {
     float: right;
 }
 
-/* This is to keep the navlinks floating to the right when navbar is expanded, also removed default padding */
-
+/* Set underline color to the same as the header when a page is 'active' */
 .nav-underline .nav-link.active,
 .nav-underline .show>.nav-link {
     border-bottom-color: #fefefc;
@@ -212,57 +193,49 @@ main {
     float: right;
 }
 
-/* Set underline color to the same as the header when a page is 'active' */
+/*.......... Nav Toggler ..........*/
 
-
-/*..... Nav Toggler .....*/
-
+/* Set background-color, border and margin for the navbar toggler */
 .navbar-toggler {
     background-color: #fefefc;
     border: 2px solid #313131;
     margin-left: 5px;
 }
 
-/* Set background-color, border and margin for the navbar toggler */
-
+/* This is to stop the nav-links returning to the middle of the container when expanded */
 .navbar-collapse {
     flex-grow: 0;
 }
 
-/* This is to stop the nav-links returning to the middle of the container when expanded */
-
 /*----------------------------------- Footer -----------------------------------*/
 
+/* Set color of footer to match the header */
 footer {
     background-color: #edd479;
 }
 
-/* Set color of footer to match the header */
-
+/* Added equal padding to top and bottom of footer */
 .footer-row {
     padding: 20px 0;
 }
 
-/* Added equal padding to top and bottom of footer */
-
+/* I want the footer to have less top padding when the screen size is smaller than 480px */
 @media (max-width:479px) {
     .footer-row {
         padding-top: 10px;
     }
 }
 
-/* I want the footer to have less top padding when the screen size is smaller than 480px */
-
+/* This is to leave less space beneath the copyright on screen sizes lower than 768px */
 @media (max-width:767px) {
     .footer-row {
         padding-bottom: 10px;
     }
 }
 
-/* This is to leave less space beneath the copyright on screen sizes lower than 768px */
+/*.......... Copyright ..........*/
 
-/*..... Copyright .....*/
-
+/* General styling for the copyright text */
 .copyright h6 {
     font-family: 'Merriweather', serif;
     font-weight: 200;
@@ -270,37 +243,34 @@ footer {
     line-height: 30px;
 }
 
-/* General styling for the copyright text */
-
+/* This is to make the copyright info and social links sit centrally in the footer */
 .copyright,
 .social-links {
     height: 30px;
 }
 
-/* This is to make the copyright info and social links sit centrally in the footer */
+/*.......... Social Links ..........*/
 
-/*..... Social Links .....*/
-
+/* This is to make each list item/social link match the height of the container */
 .social-links ul {
     line-height: 30px;
     margin-bottom: 0;
 }
 
-/* This is to make each list item/social link match the height of the container */
-
+/* Here I got help from this page 'https: //stackoverflow.com/questions/5449872/css-notlast-childafter-selector' 
+in order to override the CSS style adding spacing to the social links */
 .list-inline-item:not(:last-child) {
     content: '';
 }
 
-/* Here I got help from this page 'https: //stackoverflow.com/questions/5449872/css-notlast-childafter-selector' in order to override the CSS style adding spacing to the social links */
-
+/* Added left and right margin to each social link item to space them out a bit */
 .list-inline-item {
     margin-right: 1px;
     margin-left: 1px;
 }
 
-/* Added left and right margin to each social link item to space them out a bit */
-
+/* Added styling to each social link - used the same colours as the header 
+nav-links for the icon and background colors to match styling */
 .social-links li a i {
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 15%;
@@ -309,7 +279,6 @@ footer {
     width: 40px;
     text-align: center;
     line-height: 30px;
-    /* Added styling to each social link - used the same colours as the header nav-links for the icon and background colors to match styling */
 
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -318,15 +287,15 @@ footer {
     /* Used 'filling in footer content' video from the Mini Project in the course module for help here. */
 }
 
+/* The colors of the icon and the background of each social link switch places when hovered over */
 .social-links li a i:hover {
     background-color: #fefefc;
     color: #5c5c5c;
 }
 
-/* The colors of the icon and the background of each social link switch places when hovered over */
-
 /*----------------------------------- Gallery -----------------------------------*/
 
+/* Here I set the column count and spacing for the gallery images */
 #photo {
     line-height: 2;
     column-count: 4;
@@ -334,16 +303,14 @@ footer {
     padding: 10px 10px 0;
 }
 
-/* Here I set the column count and spacing for the gallery images */
-
+/* Each gallery image fills width of each column - also gave each image a rounded border */
 #photo img {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 8px;
 }
 
-/* Each gallery image fills width of each column - also gave each image a rounded border */
-
+/* Added media queries to reduce column count as the screen size gets smaller, ending with 1 column for mobile */
 @media (max-width:1200px) {
     #photo {
         column-count: 3;
@@ -362,11 +329,10 @@ footer {
     }
 }
 
-/* Added media queries to reduce column count as the screen size gets smaller, ending with 1 column for mobile */
-
 /*----------------------------------- Contact Us -----------------------------------*/
 
-/* I used this website for help here (https: //stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) */
+/* I used this website for help here 
+(https: //stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) */
 .flex-wrapper {
     display: flex;
     min-height: 100vh;
@@ -374,51 +340,49 @@ footer {
     justify-content: flex-start;
 }
 
-/* Here I set a background image to cover the main body - used a stock image downloaded from Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-4614204/) */
+/* Here I set a background image to cover the main body - used a stock image downloaded from 
+Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-4614204/) */
 .contact-bg {
     background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-/*..... Contact form .....*/
+/*.......... Contact form ..........*/
 
+/* Set the background color of the form to an off-white color and made it semi-transparent */
 .form-card {
     background-color: #fcfbf7f2;
 }
 
-/* Set the background color of the form to an off-white color and made it semi-transparent */
-
+/* Set font-family for the whole form */
 .form {
     font-family: 'Merriweather', serif;
 }
 
-/* Set font-family for the whole form */
-
+/* Set form header's bg-color to match the main part of the form, removed border and padding */
 .card-header {
     background-color: inherit;
     border-bottom: none;
     padding: 0;
 }
 
-/* Set form header's bg-color to match the main part of the form, removed border and padding */
-
+/* Set form entry fields to a semi-transparent light grey */
 .form-control {
     background-color: rgb(128, 128, 128, 0.1);
 }
 
-/* Set form entry fields to a semi-transparent light grey */
-
+/* Removed margin for each form-label */
 .form-label {
     margin-bottom: 0;
 }
 
-/* Removed margin for each form-label */
-
 /*----------------------------------- Main Page -----------------------------------*/
 
+/* I set the max width to all the cards-containers within each main section-container as 
+I don't want the cards to fill the width of the screen at large screen sizes  */
 .about-card,
 .review-cards {
     max-width: 1400px;
@@ -428,24 +392,21 @@ footer {
     max-width: 1200px;
 }
 
-/* I set the max width to all the cards-containers within each main section-container as I don't want the cards to fill the width of the screen at large screen sizes  */
-
+/* I set the background colour of all cards to the same color as the logo to match styling consistency */
 .about-card,
 .shop-cards .card,
 .review-card {
     background-color: #fefefc;
 }
 
-/* I set the background colour of all cards to the same color as the logo to match styling consistency */
+/*.......... About section ..........*/
 
-/*..... About section .....*/
-
+/* Set the text to justify as it appears visually pleasing */
 .about-text {
     text-align: justify;
 }
 
-/* Set the text to justify as it appears visually pleasing */
-
+/* Made the font-size smaller for the about card text on very small screen sizes */
 @media (max-width: 320px) {
     .about-title {
         font-size: 1.1rem;
@@ -455,8 +416,6 @@ footer {
         font-size: 0.8rem;
     }
 }
-
-/* Made the font-size smaller for the about card text on very small screen sizes */
 
 /* Decided to make about image a background image so it scales proportionally with screen size
 and stays centered at all times. */
@@ -469,6 +428,8 @@ and stays centered at all times. */
     min-height: 33vh;
 }
 
+/* Used different border-radius properties depending on screensize, as the orientation 
+of the image and text of the about card change for large screen sizes and above */
 .about-image {
     border-radius: 8px 8px 0 0;
 }
@@ -479,11 +440,10 @@ and stays centered at all times. */
     }
 }
 
-/* Used different border-radius properties depending on screensize, as the orientation of the image and text of the about card change for large screen sizes and above */
+/*.......... Shops & Events ..........*/
 
-/*..... Shops & Events .....*/
-
-/* This is to set the width of each card to take up only 31.5% of the width of the container instead of the default 33.33333% */
+/* This is to set the width of each card to take up only 31.5% of the width of the 
+container instead of the default 33.33333% */
 @media (min-width: 576px) {
     .row-cols-sm-3>* {
         flex: 0 0 auto;
@@ -491,40 +451,37 @@ and stays centered at all times. */
     }
 }
 
+/* This is to evenly space the shop cards within the container */
 .shop-cards {
     display: flex;
     justify-content: space-between;
 }
 
-/* This is to evenly space the shop cards within the container */
-
+/* Added some box-shadow when hovering over each card as they are clickable links to other websites */
 .shop-cards a:hover {
     box-shadow: 2px 3px 6px 0px #494949;
 }
 
-/* Added some box-shadow when hovering over each card as they are clickable links to other websites */
-
+/* Wanted each shop card image to fill the column width for each card */
 .shop-cards img {
     width: 100%;
 }
 
-/* Wanted each shop card image to fill the column width for each card */
-
+/* Wanted to keep each image centered depending on the height of the shop card at different screen sizes */
 .shop-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/* Wanted to keep each image centered depending on the height of the shop card at different screen sizes */
-
+/* This is to set a standard height for the shop cards as they tended to become 
+different heights at larger screen sizes */
 .shop-body {
     min-height: 150px;
     color: black;
 }
 
-/* This is to set a standard height for the shop cards as they tended to become different heights at larger screen sizes */
-
+/* Set card height and font-sizing for very small screen sizes */
 @media (max-width: 364px) {
     .shop-body {
         min-height: 125px;
@@ -539,8 +496,7 @@ and stays centered at all times. */
     }
 }
 
-/* Set card height and font-sizing for very small screen sizes */
-
+/* This is to keep the card title and card text horizontally cenetered within the card and spaced evenly */
 .shop-title {
     height: 30%;
 }
@@ -549,31 +505,28 @@ and stays centered at all times. */
     height: 70%;
 }
 
-/* This is to keep the card title and card text horizontally cenetered within the card and spaced evenly */
+/*.......... Reviews/Testimonies ..........*/
 
-/*..... Reviews/Testimonies .....*/
-
+/* Set the background for the review container to a light grey to contrast the other sections */
 .review-bg {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* Set the background for the review container to a light grey to contrast the other sections */
-
+/* Set font-size of the reviews for very small screen sizes */
 @media (max-width:320px) {
     .blockquote {
         font-size: 1rem;
     }
 }
 
-/* Set font-size of the reviews for very small screen sizes */
-
+/* Turned the blockquote-footers into links, so removed underlining and changed font colour to a dark grey */
 .blockquote-footer a {
     color: #555555;
     text-decoration: none;
 }
 
-/* Turned the blockquote-footers into links, so removed underlining and changed font colour to a dark grey */
-
+/* Made the review stars container float to the right of the screen, just underneath 
+the review itself, and added some margins */
 @media (min-width: 415px) {
     .review-stars {
         display: inline;
@@ -586,20 +539,20 @@ and stays centered at all times. */
     margin-right: 17px;
 }
 
-/* Made the review stars container float to the right of the screen, just underneath the review itself, and added some margins */
-
+/* I used this website https: //stackoverflow.com/questions/2570972/css-font-border for help giving the stars 
+a slight border in order to make the stars stand out, then adjusted the property in google dev tools */
 .review-stars i {
     color: #FFD700;
     text-shadow: 0px 0px 3px #484848, 0 0 #484848, 0px 0 #484848, 0 0px #484848;
-    /* I used this website https: //stackoverflow.com/questions/2570972/css-font-border 
-    for help giving the stars a slight border in order to make the stars stand out, then adjusted
-    the property in google dev tools */
+
 }
 
 #certi-img {
     border-radius: 0 0 8px 8px;
 }
 
+/* Used different border-radius properties depending on screensize, as the orientation of 
+the image and text of the about card change for large screen sizes and above */
 @media (min-width:768px) {
     #customer-img {
         border-radius: 0 0 0 8px;
@@ -610,19 +563,15 @@ and stays centered at all times. */
     }
 }
 
-/* Used different border-radius properties depending on screensize, as the orientation of the image and text of the about card change for large screen sizes and above */
+/*.......... Map ..........*/
 
-/*..... Map .....*/
-
+/* Set a standard height for the map container */
 #map {
     height: 320px;
 }
 
-/* Set a standard height for the map container */
-
+/* Set height and width of the interactive map to fill the full width of the screen and height of the container */
 #map iframe {
     height: 100%;
     width: 100%;
 }
-
-/* Set height and width of the interactive map to fill the full width of the screen and height of the container */
