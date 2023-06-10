@@ -88,11 +88,6 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*.......... Nav Title ..........*/
 
-/* I used this to keep the title hugging the Logo */
-#navbar-title {
-    margin-right: auto;
-}
-
 /* Removed default margin, added font-family and text-color to the title */
 #navbar-title h1,
 #navbar-title h6 {
