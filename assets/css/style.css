@@ -10,13 +10,13 @@
 body {
     background-color: #fefefc;
     font-family: 'Merriweather', serif;
+    min-height: 100vh;
 }
 
 /* I used the same color as the navbar logo for the general background color of the body for each page, but 
 changed bg-color for the main page. I also changed the default font-family for the project */
 
 main {
-    min-height: 100vh;
     background-color: #F5EFE7;
 }
 
