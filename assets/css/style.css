@@ -374,6 +374,7 @@ footer {
     justify-content: flex-start;
 }
 
+/* Here I set a background image to cover the main body - used a stock image downloaded from Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-4614204/) */
 .contact-bg {
     background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
         -webkit-background-size: cover;
@@ -381,18 +382,6 @@ footer {
         -o-background-size: cover;
         background-size: cover;
 }
-
-/*..... Full background image .....*/
-
-/* .contact-container {
-    background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-
-/* Here I set a background image to covere the main body - used a stock image downloaded from Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-4614204/) */
 
 /*..... Contact form .....*/
 
@@ -427,19 +416,6 @@ footer {
 }
 
 /* Removed margin for each form-label */
-
-
-/* .form-text {
-    margin-top: 0;
-    font-size: 0.65rem;
-} */
-
-#design-idea {
-    max-height: 35vh;
-    height: 35vh;
-}
-
-/* This is to set the max height and standard height of the text-area, otherwise it can be expanded beyond the footer which then gets hidden underneath */
 
 /*----------------------------------- Main Page -----------------------------------*/
 
