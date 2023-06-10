@@ -143,11 +143,6 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*.......... Nav Links ..........*/
 
-/* This is to push the navbar links and toggle to the right of the header */
-.navbar-nav {
-    margin-left: auto;
-}
-
 /* Styling for each of the nav links */
 .navbar-nav a {
     font-family: 'Merriweather', serif;
@@ -356,21 +351,14 @@ Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-
     font-family: 'Merriweather', serif;
 }
 
-/* Set form header's bg-color to match the main part of the form, removed border and padding */
+/* Set form header's bg-color to match the main part of the form */
 .card-header {
     background-color: inherit;
-    border-bottom: none;
-    padding: 0;
 }
 
 /* Set form entry fields to a semi-transparent light grey */
 .form-control {
     background-color: rgb(128, 128, 128, 0.1);
-}
-
-/* Removed margin for each form-label */
-.form-label {
-    margin-bottom: 0;
 }
 
 /*----------------------------------- Main Page -----------------------------------*/
