@@ -90,7 +90,7 @@
                 <div class="offset-1 col-10 col-lg-5">
                     <div class="card form-card">
                         <div class="card-body">
-                            <form>
+                            <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
                                 <!---- Form Header ---->
                                 <div class="card-header border-0 p-0 mb-2">
                                     Got a unique crafting idea you'd like us to make?
@@ -101,27 +101,27 @@
                                 <!------- Name -------->
                                 <div class="mb-2">
                                     <label for="fullname" class="form-label mb-0">Name</label>
-                                    <input type="text" class="form-control" id="fullname">
+                                    <input type="text" class="form-control" name="fullname" required>
                                 </div>
                                 <!--------------------->
                                 
                                 <!------- Email ------->
                                 <div class="mb-2">
                                     <label for="email" class="form-label mb-0">Email Address</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                    <input type="email" class="form-control" name="email" aria-describedby="emailHelp" required>
                                 </div>
                                 <!--------------------->
 
                                 <!---- Design Idea ---->
                                 <div class="mb-2">
                                     <label for="design-idea" class="form-label mb-0">Your Idea</label>
-                                    <textarea name="" id="design-idea" rows="5" class="form-control"></textarea>
+                                    <textarea name="design-idea" rows="5" class="form-control"></textarea>
                                 </div>
                                 <!--------------------->
 
                                 <!------ Sign Up ------>
                                 <div class="mb-2 form-check">
-                                    <input type="checkbox" class="form-check-input" id="newsletter">
+                                    <input type="checkbox" class="form-check-input" name="newsletter">
                                     <label class="form-check-label" for="newsletter"><small>Sign up for our weekly
                                             newsletter!</small></label>
                                 </div>
