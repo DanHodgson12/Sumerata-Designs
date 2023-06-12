@@ -403,7 +403,7 @@ I don't want the cards to fill the width of the screen at large screen sizes  */
 /* Decided to make about image a background image so it scales proportionally with screen size
 and stays centered at all times. */
 .about-image {
-    background: url("../images/home-page/P&J.jpeg") no-repeat center center;
+    background: url("../images/home-page/p&j.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
