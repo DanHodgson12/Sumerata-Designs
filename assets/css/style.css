@@ -17,6 +17,11 @@ main {
     background-color: #F5EFE7;
 }
 
+header,
+footer {
+    background-color: #edd479;
+}
+
 /* This is some general styling for a box-shadow, which I added to all the sections on 
 the main page to make them stand out */
 .b-shadow {
@@ -30,7 +35,6 @@ the main page to make them stand out */
 .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #edd479;
 }
 
 .navbar-container {
@@ -180,23 +184,16 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*----------------------------------- Footer -----------------------------------*/
 
-footer {
-    background-color: #edd479;
-}
-
-/* Added equal padding to top and bottom of footer */
 .footer-row {
     padding: 20px 0;
 }
 
-/* I want the footer to have less top padding when the screen size is smaller than 480px */
 @media (max-width:479px) {
     .footer-row {
         padding-top: 10px;
     }
 }
 
-/* This is to leave less space beneath the copyright on screen sizes lower than 768px */
 @media (max-width:767px) {
     .footer-row {
         padding-bottom: 10px;
@@ -205,7 +202,6 @@ footer {
 
 /*.......... Copyright ..........*/
 
-/* General styling for the copyright text */
 .copyright h6 {
     font-family: 'Merriweather', serif;
     font-weight: 200;
@@ -213,7 +209,6 @@ footer {
     line-height: 30px;
 }
 
-/* This is to make the copyright info and social links sit centrally in the footer */
 .copyright,
 .social-links {
     height: 30px;
@@ -221,7 +216,6 @@ footer {
 
 /*.......... Social Links ..........*/
 
-/* This is to make each list item/social link match the height of the container */
 .social-links ul {
     line-height: 30px;
     margin-bottom: 0;
@@ -233,7 +227,6 @@ in order to override the CSS style adding spacing to the social links */
     content: '';
 }
 
-/* Added left and right margin to each social link item to space them out a bit */
 .list-inline-item {
     margin-right: 1px;
     margin-left: 1px;
@@ -257,7 +250,6 @@ nav-links for the icon and background colors to match styling */
     /* Used 'filling in footer content' video from the Mini Project in the course module for help here. */
 }
 
-/* The colors of the icon and the background of each social link switch places when hovered over */
 .social-links li a i:hover {
     background-color: #fefefc;
     color: #5c5c5c;
@@ -265,7 +257,6 @@ nav-links for the icon and background colors to match styling */
 
 /*----------------------------------- Gallery -----------------------------------*/
 
-/* Here I set the column count and spacing for the gallery images */
 #photo {
     line-height: 2;
     column-count: 4;
@@ -273,14 +264,12 @@ nav-links for the icon and background colors to match styling */
     padding: 10px 10px 0;
 }
 
-/* Each gallery image fills width of each column - also gave each image a rounded border */
 #photo img {
     width: 100%;
     margin-bottom: 15px;
     border-radius: 8px;
 }
 
-/* Added media queries to reduce column count as the screen size gets smaller, ending with 1 column for mobile */
 @media (max-width:1200px) {
     #photo {
         column-count: 3;
@@ -322,22 +311,14 @@ Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-
 
 /*.......... Contact form ..........*/
 
-/* Set the background color of the form to an off-white color and made it semi-transparent */
 .form-card {
     background-color: #fcfbf7f2;
 }
 
-/* Set font-family for the whole form */
-.form {
-    font-family: 'Merriweather', serif;
-}
-
-/* Set form header's bg-color to match the main part of the form */
 .card-header {
     background-color: inherit;
 }
 
-/* Set form entry fields to a semi-transparent light grey */
 .form-control {
     background-color: rgb(128, 128, 128, 0.1);
 }
@@ -355,7 +336,6 @@ I don't want the cards to fill the width of the screen at large screen sizes  */
     max-width: 1200px;
 }
 
-/* I set the background colour of all cards to the same color as the logo to match styling consistency */
 .about-card,
 .shop-cards .card,
 .review-card {
@@ -364,12 +344,10 @@ I don't want the cards to fill the width of the screen at large screen sizes  */
 
 /*.......... About section ..........*/
 
-/* Set the text to justify as it appears visually pleasing */
 .about-text {
     text-align: justify;
 }
 
-/* Made the font-size smaller for the about card text on very small screen sizes */
 @media (max-width: 320px) {
     .about-title {
         font-size: 1.1rem;
@@ -414,7 +392,6 @@ container instead of the default 33.33333% */
     }
 }
 
-/* This is to evenly space the shop cards within the container */
 .shop-cards {
     display: flex;
     justify-content: space-between;
@@ -425,26 +402,21 @@ container instead of the default 33.33333% */
     box-shadow: 2px 3px 6px 0px #494949;
 }
 
-/* Wanted each shop card image to fill the column width for each card */
 .shop-cards img {
     width: 100%;
 }
 
-/* Wanted to keep each image centered depending on the height of the shop card at different screen sizes */
 .shop-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-/* This is to set a standard height for the shop cards as they tended to become 
-different heights at larger screen sizes */
 .shop-body {
     min-height: 150px;
     color: black;
 }
 
-/* Set card height and font-sizing for very small screen sizes */
 @media (max-width: 364px) {
     .shop-body {
         min-height: 125px;
@@ -470,12 +442,10 @@ different heights at larger screen sizes */
 
 /*.......... Reviews/Testimonies ..........*/
 
-/* Set the background for the review container to a light grey to contrast the other sections */
 .review-bg {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* Set font-size of the reviews for very small screen sizes */
 @media (max-width:320px) {
     .blockquote {
         font-size: 1rem;
@@ -488,8 +458,6 @@ different heights at larger screen sizes */
     text-decoration: none;
 }
 
-/* Made the review stars container float to the right of the screen, just underneath 
-the review itself, and added some margins */
 @media (min-width: 415px) {
     .review-stars {
         display: inline;
@@ -528,12 +496,10 @@ the review images change for medium screen sizes and above */
 
 /*.......... Map ..........*/
 
-/* Set a standard height for the map container */
 #map {
     height: 320px;
 }
 
-/* Set height and width of the interactive map to fill the full width of the screen and height of the container */
 #map iframe {
     height: 100%;
     width: 100%;
