@@ -22,6 +22,10 @@ footer {
     background-color: #edd479;
 }
 
+.yellow-bg {
+    background-color: #edd4794a;
+}
+
 /* This is some general styling for a box-shadow, which I added to all the sections on 
 the main page to make them stand out */
 .b-shadow {
@@ -207,7 +211,6 @@ as it messes with the layout of the navbar toggler and header title */
 /*.......... Copyright ..........*/
 
 .copyright h6 {
-    font-family: 'Merriweather', serif;
     font-weight: 200;
     font-size: 13px;
     line-height: 30px;
@@ -480,10 +483,6 @@ container instead of the default 33.33333% */
 }
 
 /*.......... Reviews/Testimonies ..........*/
-
-.review-bg {
-    background-color: rgba(0, 0, 0, 0.15);
-}
 
 @media (max-width:320px) {
     .blockquote {
