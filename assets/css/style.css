@@ -1,6 +1,5 @@
 /*----------------------------------- General Styling -----------------------------------*/
 
-/* This is to remove all default margins and padding for all HTMl elements */
 * {
     padding: 0;
     margin: 0;
@@ -14,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* Here I changed the background color of the main page to a nice beige colour */
 main {
     background-color: #F5EFE7;
 }
@@ -29,15 +27,12 @@ the main page to make them stand out */
 
 /*.......... Navbar ..........*/
 
-/* Here I gave the header some padding to space out the content from the x and y axis */
 .navbar {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #edd479;
 }
 
-/* I used padding for the container of the navbar content separately in order to adjust padding 
-for different screen sizes, but keep the top and bottom padding the same at all times */
 .navbar-container {
     padding-left: 10px;
     padding-right: 10px;
@@ -59,7 +54,6 @@ helps the header content stay centered at lower screen sizes */
 
 /*.......... Nav Logo ..........*/
 
-/* Added some margin-right to the logo to give the title some space */
 #navbar-logo {
     margin-right: 5px;
 }
@@ -72,13 +66,11 @@ as it messes with the layout of the navbar toggler and header title */
     }
 }
 
-/* Here I set the size of the logo to stay the same on all but small screen sizes */
 #navbar-logo img {
     width: 80px;
     height: 80px;
 }
 
-/* I want the logo to appear smaller to match the header title when the screen size is smaller than 480px */
 @media (max-width:479px) {
     #navbar-logo img {
         width: 60px;
@@ -88,10 +80,8 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*.......... Nav Title ..........*/
 
-/* Removed default margin, added font-family and text-color to the title */
 #navbar-title h1,
 #navbar-title h6 {
-    font-family: 'Merriweather', serif;
     color: #313131;
 }
 
@@ -103,7 +93,6 @@ as it messes with the layout of the navbar toggler and header title */
     text-shadow: -1px -1px 0px rgba(255, 255, 255, 0.3), 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 
-/* Added this to make the title narrower and the mavbar-toggler have less padding at very small screen sizes */
 @media (max-width:360px) {
     #navbar-title h1 {
         letter-spacing: 0.5px;
@@ -115,26 +104,22 @@ as it messes with the layout of the navbar toggler and header title */
     }
 }
 
-/* Added media query to make font size larger when above 479px */
 @media (min-width:480px) {
     #navbar-title h1 {
         font-size: 1.9rem;
     }
 }
 
-/* Added media query to make font size larger when above 1400px */
 @media (min-width:1400px) {
     #navbar-title h1 {
         font-size: 2.2rem;
     }
 }
 
-/* Added separate letter-spacing for the h6 under the title */
 #navbar-title h6 {
     letter-spacing: 0.5px;
 }
 
-/* Added media query to make font size larger when above 1200px */
 @media (max-width:479px) {
     #navbar-title h6 {
         font-size: 0.8rem;
@@ -143,9 +128,7 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*.......... Nav Links ..........*/
 
-/* Styling for each of the nav links */
 .navbar-nav a {
-    font-family: 'Merriweather', serif;
     font-weight: 500;
     margin-right: 4px;
     margin-left: 4px;
@@ -184,7 +167,6 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*.......... Nav Toggler ..........*/
 
-/* Set background-color, border and margin for the navbar toggler */
 .navbar-toggler {
     background-color: #fefefc;
     border: 2px solid #313131;
@@ -198,7 +180,6 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*----------------------------------- Footer -----------------------------------*/
 
-/* Set color of footer to match the header */
 footer {
     background-color: #edd479;
 }
