@@ -271,12 +271,6 @@ nav-links for the icon and background colors to match styling */
     padding: 10px 10px 0;
 }
 
-#photo img {
-    width: 100%;
-    margin-bottom: 15px;
-    border-radius: 8px;
-}
-
 @media (max-width:1200px) {
     #photo {
         column-count: 3;
@@ -293,6 +287,12 @@ nav-links for the icon and background colors to match styling */
     #photo {
         column-count: 1;
     }
+}
+
+#photo img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
 }
 
 /*----------------------------------- Contact Us -----------------------------------*/
