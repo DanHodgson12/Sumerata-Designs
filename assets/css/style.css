@@ -265,14 +265,13 @@ nav-links for the icon and background colors to match styling */
 /*----------------------------------- Gallery -----------------------------------*/
 
 #gallery {
-    line-height: 2;
+    /* line-height: 2;
     column-count: 3;
-    column-gap: 15px;
-    padding: 10px 10px 0;
+    column-gap: 15px; */
     max-width: 1400px;
 }
 
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     #gallery {
         column-count: 2;
     }
@@ -282,11 +281,16 @@ nav-links for the icon and background colors to match styling */
     #gallery {
         column-count: 1;
     }
-}
+} */
+
+/* #gallery .col {
+    padding: 7px;
+} */
 
 #gallery img {
     width: 100%;
-    margin-bottom: 15px;
+    height: 100%;
+    /* margin-bottom: 15px; */
     border-radius: 8px;
 }
 
