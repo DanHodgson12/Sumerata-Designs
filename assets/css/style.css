@@ -309,7 +309,7 @@ nav-links for the icon and background colors to match styling */
 /* Here I set a background image to cover the main body - used a stock image downloaded from 
 Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-4614204/) */
 .contact-bg {
-    background: url("../images/contact/pexels-cottonbro-studio-4614204.jpg") no-repeat center center;
+    background: url("../images/contact/contact_bg_img.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
