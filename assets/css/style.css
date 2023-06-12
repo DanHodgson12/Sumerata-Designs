@@ -182,6 +182,10 @@ as it messes with the layout of the navbar toggler and header title */
     flex-grow: 0;
 }
 
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 /*----------------------------------- Footer -----------------------------------*/
 
 .footer-row {
