@@ -323,6 +323,41 @@ Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-
     background-color: rgb(128, 128, 128, 0.1);
 }
 
+/* Here I used 'Button-24' from (https://getcssscan.com/css-buttons-examples)
+and adjusted the styling slightly to match the color theme of the website */
+.button {
+    background: #edd479;
+    border: 1px solid #5c5c5c;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #313131;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+    background-color: #5c5c5c;
+    background-position: 0 0;
+    color: #fefefc;
+}
+
+.button:active {
+    opacity: .5;
+}
+
 /*----------------------------------- Main Page -----------------------------------*/
 
 /* I set the max width to all the cards-containers within each main section-container as 
@@ -503,43 +538,4 @@ the review images change for medium screen sizes and above */
 #map iframe {
     height: 100%;
     width: 100%;
-}
-
-
-
-
-.button-24 {
-    background: #edd479;
-    border: 1px solid #5c5c5c;
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-    box-sizing: border-box;
-    color: #313131;
-    cursor: pointer;
-    display: inline-block;
-    /* font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif; */
-    font-size: 16px;
-    /* font-weight: 800; */
-    line-height: 16px;
-    min-height: 40px;
-    outline: 0;
-    padding: 12px 14px;
-    text-align: center;
-    /* text-rendering: geometricprecision; */
-    text-transform: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-}
-
-.button-24:hover,
-.button-24:active {
-    background-color: #5c5c5c;
-    background-position: 0 0;
-    color: #fefefc;
-}
-
-.button-24:active {
-    opacity: .5;
 }
