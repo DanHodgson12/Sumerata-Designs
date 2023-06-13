@@ -13,18 +13,14 @@ body {
     min-height: 100vh;
 }
 
-/* main {
-    background-color: #F5EFE7;
-} */
-
 header,
 footer {
     /* background-color: #edd479; */
     background-color: #b0bdef;
 }
 
-.yellow-bg {
-    background-color: #edd4794a;
+.beige-bg {
+    background-color: #d7d5c2;
 }
 
 .grey-bg {
