@@ -19,7 +19,8 @@ body {
 
 header,
 footer {
-    background-color: #edd479;
+    /* background-color: #edd479; */
+    background-color: #b0bdef;
 }
 
 .yellow-bg {
@@ -333,7 +334,7 @@ Pexels (https: //www.pexels.com/photo/white-printer-paper-on-brown-wooden-table-
 /* Here I used 'Button-24' from (https://getcssscan.com/css-buttons-examples)
 and adjusted the styling slightly to match the color theme of the website */
 .button {
-    background: #edd479;
+    background: #b0bdef;
     border: 1px solid #5c5c5c;
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
