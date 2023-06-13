@@ -28,7 +28,7 @@ footer {
 
 .grey-bg {
     background-color: #5c5c5c;
-    color: #fefefc ;
+    color: #fefefc;
 }
 
 /* This is some general styling for a box-shadow, which I added to all the sections on 
@@ -529,6 +529,16 @@ the review images change for medium screen sizes and above */
     #certi-img {
         border-radius: 0 0 8px 0;
     }
+}
+
+.card-img-overlay {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--bs-card-inner-border-radius);
+    background-color: rgb(97 97 97 / 42%);
 }
 
 /*.......... Map ..........*/
