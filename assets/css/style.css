@@ -9,7 +9,7 @@
 changed bg-color for the main page. I also changed the default font-family for the project */
 body {
     background-color: #fefefc;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
     min-height: 100vh;
 }
 
@@ -96,6 +96,7 @@ as it messes with the layout of the navbar toggler and header title */
 #navbar-title h1,
 #navbar-title h6 {
     color: #313131;
+    font-family: 'Lora', serif;
 }
 
 /* Added some general styling to the navbar title and added text-shadow to give an embossed effect */
@@ -389,6 +390,10 @@ I don't want the cards to fill the width of the screen at large screen sizes  */
     text-align: justify;
 }
 
+.about-title {
+    font-family: 'Lora', serif;
+}
+
 @media (max-width: 320px) {
     .about-title {
         font-size: 1.1rem;
@@ -475,6 +480,7 @@ container instead of the default 33.33333% */
 /* This is to keep the card title and card text horizontally cenetered within the card and spaced evenly */
 .shop-title {
     height: 30%;
+    font-family: 'Lora', serif;
 }
 
 .shop-text {
@@ -482,6 +488,10 @@ container instead of the default 33.33333% */
 }
 
 /*.......... Reviews/Testimonies ..........*/
+
+.review-title {
+    font-family: 'Lora', serif;
+}
 
 @media (max-width:320px) {
     .blockquote {
