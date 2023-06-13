@@ -9,6 +9,7 @@
 changed bg-color for the main page. I also changed the default font-family for the project */
 body {
     background-color: #fefefc;
+    color: #313131;
     font-family: 'Roboto Condensed', sans-serif;
     min-height: 100vh;
 }
@@ -457,7 +458,7 @@ container instead of the default 33.33333% */
 
 .shop-body {
     min-height: 150px;
-    color: black;
+    color: #313131;
 }
 
 @media (max-width: 364px) {
