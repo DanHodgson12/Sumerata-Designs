@@ -1,5 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
 # Sumersata Designs
 
 Sumersata Designs is a craft-design business situated in the South West of England, offering unique crafted products and courses teaching people how to craft like them.
@@ -52,6 +50,35 @@ The main font used throughout the site is Roboto Condensed, with sans-serif as a
 # Technologies Used
 
 ## Languages Used
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+
+## Frameworks, Libraries and Programs Used
+
+* [Google Fonts](https://fonts.google.com/)
+    - Google fonts was used to import Lora and Roboto Condensed into the head of each page. These fonts are used throughout the website.
+
+* [Font Awesome](https://fontawesome.com/)
+    - Font Awesome was used to add icons for the social links and stars for the reviews section, to add a better user experience.
+
+* [CodeAnywhere](https://app.codeanywhere.com/)
+    - CodeAnywhere was used for writing, committing and pushing the code to GitHub.
+
+* [Bootstrap](https://getbootstrap.com/)
+    - Bootstrap was used to develop a responsive mobile-first design using an assortment of templates.
+
+* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used throughout the development of the website to test ideas and responsiveness, and debug issues that arose.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
+
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
+
+* [Favicon.io](https://favicon.io/)
+    - Favicon.io was used to create the site favicon.
 
 # Testing
 
