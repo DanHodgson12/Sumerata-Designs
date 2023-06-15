@@ -57,28 +57,28 @@ The main font used throughout the site is Roboto Condensed, with sans-serif as a
 ## Frameworks, Libraries and Programs Used
 
 * [Google Fonts](https://fonts.google.com/)
-    - Google fonts was used to import Lora and Roboto Condensed into the head of each page. These fonts are used throughout the website.
+  * Google fonts was used to import Lora and Roboto Condensed into the head of each page. These fonts are used throughout the website.
 
 * [Font Awesome](https://fontawesome.com/)
-    - Font Awesome was used to add icons for the social links and stars for the reviews section, to add a better user experience.
+  * Font Awesome was used to add icons for the social links and stars for the reviews section, to add a better user experience.
 
 * [CodeAnywhere](https://app.codeanywhere.com/)
-    - CodeAnywhere was used for writing, committing and pushing the code to GitHub.
+  * CodeAnywhere was used for writing, committing and pushing the code to GitHub.
 
 * [Bootstrap](https://getbootstrap.com/)
-    - Bootstrap was used to develop a responsive mobile-first design using an assortment of templates.
+  * Bootstrap was used to develop a responsive mobile-first design using an assortment of templates.
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-    - Chrome DevTools was used throughout the development of the website to test ideas and responsiveness, and debug issues that arose.
+  * Chrome DevTools was used throughout the development of the website to test ideas and responsiveness, and debug issues that arose.
 
 * [W3C Markup Validator](https://validator.w3.org/)
-    - W3C Markup Validator was used to validate the HTML code.
+  * W3C Markup Validator was used to validate the HTML code.
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-    - W3C CSS Validator was used to validate the CSS code.
+  * W3C CSS Validator was used to validate the CSS code.
 
 * [Favicon.io](https://favicon.io/)
-    - Favicon.io was used to create the site favicon.
+  * Favicon.io was used to create the site favicon.
 
 # Testing
 
