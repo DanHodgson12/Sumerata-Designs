@@ -31,7 +31,7 @@ Visit the deployed site here.
 
 ## Colour Scheme
 
-
+![Colour Scheme](assets/readme-files/sd_color_scheme.png)
 
 
 
