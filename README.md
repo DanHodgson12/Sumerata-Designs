@@ -1,5 +1,57 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+# Sumersata Designs
+
+Sumersata Designs is a craft-design business situated in the South West of England, offering unique crafted products and courses teaching people how to craft like them.
+
+The primary goal of this website is to provide an informative and easy-to-use platform for the user to explore products and coursesm offered by Sumersata Designs, as well as offer the ability for the user to contact the business for craft-design requests.
+
+Visit the deployed site here.
+
+---
+
+# User Experience (UX)
+
+## Project Goals
+
+* The website can be easily navigated and understood.
+* Explains who Sumersata Designs are and what they have to offer.
+* Contains clear imagery and content.
+* Clearly outlines where to purchase products and courses offered.
+* Shows a vibrant image gallery of craft designs.
+* Provides a simple contact form.
+
+## User Stories
+
+* As a user, I want to be able to navigate the website easily.
+* As a user, I want to know who Sumersata Designs are.
+* As a user, I want to know how and where to purchase products and courses.
+* As a user, I want to see a selection of previous/current designs.
+* As a user, I want to be able to contact Sumersata Designs easily.
+
+## Colour Scheme
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Welcome,
 
 This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
