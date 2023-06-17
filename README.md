@@ -41,7 +41,7 @@ The colours used for this website are:
 
 ## Typography
 
-The main font used throughout the site is Roboto Condensed, with sans-serif as a fallback if it fails to load. This font was suggested on [figma.com](https://www.figma.com/google-fonts/roboto-font-pairings/#:~:text=Roboto%20font%20pairings,Nunito%2C%20Raleway%20and%20Space%20Mono.) as a good font pairing with Lora, which is used for all headings and the nav title.
+The main font used throughout the site is Roboto Condensed, with sans-serif as a fallback if it fails to load. This font was suggested on [figma.com](https://www.figma.com/google-fonts/roboto-font-pairings/#:~:text=Roboto%20font%20pairings,Nunito%2C%20Raleway%20and%20Space%20Mono.) as a good font pairing with Lora, which is used for all headings and the nav title. Serif is used as a fall-back for Lora.
 
 ## Wireframes
 
@@ -81,6 +81,21 @@ The main font used throughout the site is Roboto Condensed, with sans-serif as a
   * Favicon.io was used to create the site favicon.
 
 # Testing
+
+## Testing User Stories
+
+## Code Validation
+
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to checl for any code errors or misuse of syntax/elements.
+
+  * The W3C Markup Validator returned a few errors:
+
+    * The use of an aria-label on a div element which containtd a background image. This was overcome by adding an "sr-only" Bootstrap class to a 'p' element which a description of the image.
+    * The use of a div element inside a figure element. This was overcome by changing the element to a span and moving it inside the ficcaption element.
+    * The use of a 'section' element without a heading. This was overcome by removing it altogether, as it didn't serve a purpose.
+    * The form inputs and labels missing ID attributes which were added shortly after.
+
+  * The W3C CSS Validator returned no errors in my code.
 
 # Finished Product
 
