@@ -45,6 +45,10 @@ The main font used throughout the site is Roboto Condensed, with sans-serif as a
 
 ## Wireframes
 
+[Figma](https://www.figma.com/) was used to showcase the visuals of each of the three pages of the site and where each of the elements within each page sit.
+
+The [full version of wireframes](https://www.figma.com/file/OYkMASdYDDyC3K3OuCFwXX/Sumersata-Designs?type=design&node-id=3-210&mode=design&t=o6YosKl7NdoBeGkW-0) can be viewed to see the layout of all three pages across the three main screen sizes.
+
 Page | Wireframe
 --- | ---
 Home section | ![Home section wireframe image](/assets/readme-files/home-section.png)
@@ -101,7 +105,7 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
     * The use of a 'section' element without a heading. This was overcome by removing it altogether, as it didn't serve a purpose.
     * The form inputs and labels missing ID attributes which were added shortly after.
 
-  * The W3C CSS Validator returned no errors in my code.
+  * The W3C CSS Validator returned no errors in the code.
 
 # Finished Product
 
