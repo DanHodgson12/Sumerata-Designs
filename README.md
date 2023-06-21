@@ -57,6 +57,51 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
 
 # Features
 
+## General
+
+* The website was designed from a mobile-first perspective.
+* The website is responsive on all screen sizes, including very small screens such as the Galaxy Fold.
+
+### Header
+![Header on large screen sizes](/assets/readme-files/header-lg.jpeg)
+
+The header consists of:
+
+* The business logo in the top left - this is a clickable link that takes the user to the home page.
+* The business name/title and their slogan - this is also a clickable link that takes the user to the home page.
+* Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page.
+
+On medium and small screen sizes, the navigation links turn into a Navbar Toggler which expands and collapses when clicked on.
+
+![Header on medium and small screen sizes - collapsed](/assets/readme-files/header-sm-md-clpsd.jpeg)
+
+When expanded, the nav links are displayed vertically with the same underline and 'active' features as the large screen size header.
+
+![Header on medium and small screen sizes - expanded](/assets/readme-files/header-sm-md-xpnd.jpeg)
+
+### Footer
+![Footer on large screen sizes](/assets/readme-files/footer-lg.jpeg)
+
+The footer consists of:
+
+* Copyright information on the left.
+* Social links on the right - these are clickable links that go to their respective social pages:
+  * Etsy
+  * Facebook
+  * Instagram
+  * Twitter
+  * Youtube
+
+On medium and small screen sizes, the social links and copyright information stack on top of each other. This seems more visually appealing and stops the footer becoming cramped.
+
+![Footer on medium and small screen sizes](/assets/readme-files/footer-sm-md.jpeg)
+
+## Home Page
+
+### About Us
+
+
+
 # Technologies Used
 
 ## Languages Used
