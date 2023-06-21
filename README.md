@@ -63,6 +63,7 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
 * The website is responsive on all screen sizes, including very small screens such as the Galaxy Fold.
 
 ### Header
+
 ![Header on large screen sizes](/assets/readme-files/header-lg.jpeg)
 
 The header consists of:
@@ -79,7 +80,12 @@ When expanded, the nav links are displayed vertically with the same underline an
 
 ![Header on medium and small screen sizes - expanded](/assets/readme-files/header-sm-md-xpnd.jpeg)
 
+On very small screen widths - 333px or less - the logo gets hidden otherwise there's not enough room for all the features of the header.
+
+![Header on very smal screen sizes](/assets/readme-files/header-vs.jpeg)
+
 ### Footer
+
 ![Footer on large screen sizes](/assets/readme-files/footer-lg.jpeg)
 
 The footer consists of:
@@ -100,6 +106,51 @@ On medium and small screen sizes, the social links and copyright information sta
 
 ### About Us
 
+![About section image](/assets/readme-files/about-section.jpeg)
+
+The About section consists of:
+
+* An image of the business owners.
+* Text explaining the 'who' and 'what' of the business.
+
+### Shops/Courses/Events
+
+![Shops/Courses/Events image](/assets/readme-files/shops-section.jpeg)
+
+This section consists of three cards describing and taking the user to the following:
+
+* Shop - the [Sumersata Designs Etsy](https://www.etsy.com/shop/SumersataDesigns) store where the user can browse or purchase pre-made designs.
+* Courses - the [CraftCourses.com](https://www.craftcourses.com/craft-workshops?keyword=sumersata) website where the user can browse or purchase crafting courses that Sumersata Designs offer.
+* Events - the [Sumersata Designs Facebook](https://www.facebook.com/SumersataDesigns) page where the user can see any upcoming events for the business.
+
+These are all clickable links and there's a hover effect for each card to accentuate this.
+
+### Reviews/Testimonies
+
+![Reviews/Testimonies image](/assets/readme-files/reviews-section.jpeg)
+
+The Reviews section consists of:
+
+* The top rated reviews left by customers who've experienced courses offered by Sumersata Designs.
+* An annotated image of a customer whom attended a course and left a review.
+* A Silver Certificate of Excellence awarded to Sumersata Designs by CraftCourses.com.
+
+### Address/Map
+
+![Address/Map image](/assets/readme-files/address-section.jpeg)
+
+This section consists of:
+
+* The business address and contact email address.
+* An interactive Google Map pinned to the business address.
+
+## Gallery Page
+
+This section consists of images of a selection of designs by Sumersata Designs. The gallery has been styled on the 'Masonry' layout, although altered to ensure there's no dead space at the bottom of the page.
+
+The layout of the gallery columns and sizing changes depending on screen size (pictured below), but the content stays the same.
+
+**Desktop**
 
 
 # Technologies Used
