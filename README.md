@@ -156,11 +156,9 @@ The layout of the gallery columns and sizing changes depending on screen size (p
 * On screens wider than 1024px, all gallery images are reduced in opacity, with an effect that reveals each image when you hover over them.
 
 **Tablet**
-
 ![Tablet gallery image](/assets/readme-files/gallery-md.jpeg)
 
 **Phone**
-
 ![Phone gallery image](/assets/readme-files/gallery-sm.jpeg)
 
 # Technologies Used
