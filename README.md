@@ -33,7 +33,7 @@ Visit the deployed site here.
 
 The colours used for this website are:
 
-* Lilac (#b0bdef) - for the header, footer and contact form
+* Lavender (#b0bdef) - for the header, footer and contact form
 * Beige (#d7d5c2) - for the background of the 'Reviews' section
 * Off-white (#fefefc) - for the navbar toggler, nav underlines, social links icons and main background color for each page and all cards
 * Light Grey (#5c5c5c) - for the social links, the background colour for the 'Address & Contact' section on the home page, the outline for the input fields of the contact form and the hover effect for the form submit button
@@ -44,6 +44,12 @@ The colours used for this website are:
 The main font used throughout the site is Roboto Condensed, with sans-serif as a fallback if it fails to load. This font was suggested on [figma.com](https://www.figma.com/google-fonts/roboto-font-pairings/#:~:text=Roboto%20font%20pairings,Nunito%2C%20Raleway%20and%20Space%20Mono.) as a good font pairing with Lora, which is used for all headings and the nav title. Serif is used as a fall-back for Lora.
 
 ## Wireframes
+
+Page | Wireframe
+--- | ---
+Home section | ![Home section wireframe image](/assets/readme-files/home-section.png)
+Gallery section | ![Gallery section wireframe image](/assets/readme-files/gallery-section.png)
+Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/contact-us-section.png)
 
 # Features
 
