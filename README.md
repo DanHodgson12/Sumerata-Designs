@@ -151,7 +151,17 @@ This section consists of images of a selection of designs by Sumersata Designs. 
 The layout of the gallery columns and sizing changes depending on screen size (pictured below), but the content stays the same.
 
 **Desktop**
+![Desktop gallery image](/assets/readme-files/gallery-lg.jpeg)
 
+* On screens wider than 1024px, all gallery images are reduced in opacity, with an effect that reveals each image when you hover over them.
+
+**Tablet**
+
+![Tablet gallery image](/assets/readme-files/gallery-md.jpeg)
+
+**Phone**
+
+![Phone gallery image](/assets/readme-files/gallery-sm.jpeg)
 
 # Technologies Used
 
