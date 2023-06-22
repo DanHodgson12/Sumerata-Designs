@@ -104,6 +104,8 @@ On medium and small screen sizes, the social links and copyright information sta
 
 ## Home Page
 
+* The content of all sections of the home page stays the same - only layout and sizing changes.
+
 ### About Us
 
 ![About section image](/assets/readme-files/about-section.jpeg)
@@ -138,7 +140,6 @@ The Reviews section consists of:
 ### Address/Map
 
 ![Address/Map image](/assets/readme-files/address-section.jpeg)
-
 This section consists of:
 
 * The business address and contact email address.
@@ -160,6 +161,8 @@ Phone | ![Phone Gallery image](/assets/readme-files/gallery-sm.jpeg)
 
 ## Contact-Us Page
 
+* The content of all sections of the home page stays the same - only layout and sizing changes.
+
 This section consists of:
 
 * A full screen background image in the form of a wrapper around Header, Main section and Footer.
@@ -170,10 +173,13 @@ This section consists of:
   * Checkbox - where users can sign up to the weekly newsletter
   * Submit button
 
-The layout of the form stays the same on all screen sizes. Only the width of the form changes.
-
 On larger screen sizes, the form is positioned to the left of the screen in order to show more of the background image. This also helps the form remain a sensible width and remain visually appealing.
-![Contact Us PaOn smaller screen sizes, the width of the form covers around 80% of the width of the screen and is positioned centrally.
+
+![Contact Us Page on large screen size](/assets/readme-files/contact-lg.jpeg)
+
+On smaller screen sizes, the width of the form covers around 80% of the width of the screen and is positioned centrally.
+
+![Contact Us page on smaller screen sizes](/assets/readme-files/contact-sm.jpeg)
 
 # Technologies Used
 
