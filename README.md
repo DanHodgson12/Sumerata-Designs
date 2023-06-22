@@ -255,6 +255,25 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
   * The W3C CSS Validator returned no errors in the code.
 
+## Accessibility
+
+Lighthouse in Google Chrome Dev Tools was used to test quality, performance and accessibility of the webpage.
+
+Lighthouse reports:
+
+* Initial report gave a 70% Performance rating, suggestion large file sizes for images causing longer load times.
+* Minifying all project images using [Compressor.io](https://compressor.io/) and re-adding them to the project resulted in a 9% increase in webpage performance.
+
+Before
+
+![Lighthouse Report - Before](/assets/readme-files/webpage-lh-report-before.jpeg)
+
+After
+
+![Lighthouse Report - After](/assets/readme-files/webpage-lh-report-after.jpeg)
+
+* Home Page
+
 # Finished Product
 
 # Deployment
