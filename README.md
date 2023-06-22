@@ -150,16 +150,30 @@ This section consists of images of a selection of designs by Sumersata Designs. 
 
 The layout of the gallery columns and sizing changes depending on screen size (pictured below), but the content stays the same.
 
-**Desktop**
-![Desktop gallery image](/assets/readme-files/gallery-lg.jpeg)
-
 * On screens wider than 1024px, all gallery images are reduced in opacity, with an effect that reveals each image when you hover over them.
 
-**Tablet**
-![Tablet gallery image](/assets/readme-files/gallery-md.jpeg)
+Screen Size | Gallery
+--- | ---
+Desktop | ![Desktop Gallery image](/assets/readme-files/gallery-lg.jpeg)
+Tablet | ![Tablet Gallery image](/assets/readme-files/gallery-md.jpeg)
+Phone | ![Phone Gallery image](/assets/readme-files/gallery-sm.jpeg)
 
-**Phone**
-![Phone gallery image](/assets/readme-files/gallery-sm.jpeg)
+## Contact-Us Page
+
+This section consists of:
+
+* A full screen background image in the form of a wrapper around Header, Main section and Footer.
+* A contact form containing the following inputs:
+  * Name
+  * Email
+  * Textarea - where users can request a design idea
+  * Checkbox - where users can sign up to the weekly newsletter
+  * Submit button
+
+The layout of the form stays the same on all screen sizes. Only the width of the form changes.
+
+On larger screen sizes, the form is positioned to the left of the screen in order to show more of the background image. This also helps the form remain a sensible width and remain visually appealing.
+![Contact Us PaOn smaller screen sizes, the width of the form covers around 80% of the width of the screen and is positioned centrally.
 
 # Technologies Used
 
