@@ -91,7 +91,7 @@ as it messes with the layout of the navbar toggler and header title */
 /*.......... Nav Title ..........*/
 
 #navbar-title h1,
-#navbar-title h6 {
+#navbar-title h2 {
     color: #313131;
     font-family: 'Lora', serif;
 }
@@ -127,12 +127,13 @@ as it messes with the layout of the navbar toggler and header title */
     }
 }
 
-#navbar-title h6 {
+#navbar-title h2 {
+    font-size: 1rem;
     letter-spacing: 0.5px;
 }
 
 @media (max-width:479px) {
-    #navbar-title h6 {
+    #navbar-title h2 {
         font-size: 0.8rem;
     }
 }
@@ -480,6 +481,17 @@ container instead of the default 33.33333% */
     color: #313131;
 }
 
+/* This is to keep the card title and card text horizontally cenetered within the card and spaced evenly */
+.shop-title {
+    height: 30%;
+    font-family: 'Lora', serif;
+    font-size: 1.25rem;
+}
+
+.shop-text {
+    height: 70%;
+}
+
 @media (max-width: 364px) {
     .shop-body {
         min-height: 125px;
@@ -494,20 +506,11 @@ container instead of the default 33.33333% */
     }
 }
 
-/* This is to keep the card title and card text horizontally cenetered within the card and spaced evenly */
-.shop-title {
-    height: 30%;
-    font-family: 'Lora', serif;
-}
-
-.shop-text {
-    height: 70%;
-}
-
 /*.......... Reviews/Testimonies ..........*/
 
-.review-title {
+.review-title h4 {
     font-family: 'Lora', serif;
+    font-size: 1rem;
 }
 
 @media (max-width:320px) {
@@ -568,7 +571,11 @@ the review images change for medium screen sizes and above */
     background-color: rgb(97 97 97 / 42%);
 }
 
-/*.......... Map ..........*/
+/*.......... Address/Map ..........*/
+
+#address-container h5 {
+    font-size: 1rem;
+}
 
 #map {
     height: 320px;
