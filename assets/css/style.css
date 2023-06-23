@@ -1,5 +1,7 @@
 /*----------------------------------- General Styling -----------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -14,9 +16,18 @@ body {
     min-height: 100vh;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: #313131;
+}
+
 header,
 footer {
-    /* background-color: #edd479; */
     background-color: #b0bdef;
 }
 
