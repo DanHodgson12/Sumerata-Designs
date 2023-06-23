@@ -78,13 +78,11 @@ as it messes with the layout of the navbar toggler and header title */
 
 #navbar-logo img {
     width: 80px;
-    height: 80px;
 }
 
 @media (max-width:479px) {
     #navbar-logo img {
         width: 60px;
-        height: 60px;
     }
 }
 
