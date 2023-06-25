@@ -2,7 +2,7 @@
 
 ![Sumersata Designs Final Design](/assets/readme-files/sd_final.jpeg)
 
-Sumersata Designs is a craft-design business situated in the South West of England, offering unique crafted products and courses teaching people how to craft like them.
+Sumersata Designs is a craft-design business situated in the South West of England, offering unique crafted products and courses teaching people how to craft like them. The business owners are relatives of the developer: Pauline (Mother) & Janet (Auntie).
 
 The primary goal of this website is to provide an informative and easy-to-use platform for the user to explore products and coursesm offered by Sumersata Designs, as well as offer the ability for the user to contact the business for craft-design requests.
 
@@ -320,6 +320,7 @@ Feature | Outcome | Pass/Fail
   Nav Link Active | Shows underline on active page as expected | Pass
   Nav Toggler | Collapses and exapands with no visible issues | Pass
   Social Links | Each link opens in a new page | Pass
+  Social Links Hover | Each link's hover effect works without issue | Pass
 
 #### Home Page
 
@@ -358,6 +359,20 @@ Contact Us | ![Contact Us Page Image](/assets/readme-files/contact-full.png)
 [Back to top &#8682;](#sumersata-designs)
 
 # Deployment
+
+This website was developed using [Codeanywhere](https://codeanywhere.com/solutions/collaborate), then committed and pushed to GitHub using the Codeanywhere terminal.
+
+## GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
+2. At the top of the Repository (not top of page), locate the "Settings" button on the menu bar
+3. Under "Code and automation", click the "Pages" tab
+4. Under "Source", select the option "Deploy from a branch"
+5. Under "Branch", select the option "main", then select the "/(root)" folder
+6. Click "Save" and the page will refresh
+7. The published site link appears at the top of the "GitHub Pages" section
 
 # Credits
 
