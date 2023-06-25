@@ -276,6 +276,16 @@ nav-links for the icon and background colors to match styling */
     border-radius: 8px;
 }
 
+.g-img-v {
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.g-img-h {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
 /* Added a hover effect for the gallery images for larger screen sizes */
 @media (min-width:1024px) {
     #gallery img {
