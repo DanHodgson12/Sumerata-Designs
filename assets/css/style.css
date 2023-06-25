@@ -585,7 +585,7 @@ the review images change for medium screen sizes and above */
     right: auto;
     bottom: 0;
     left: 0;
-    border-radius: var(--bs-card-inner-border-radius);
+    border-radius: 10px;
     background-color: rgb(97 97 97 / 42%);
     color: #fefefc;
 }
