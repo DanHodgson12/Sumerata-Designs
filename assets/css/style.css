@@ -539,7 +539,6 @@ container instead of the default 33.33333% */
 .review-stars {
     margin-left: 17px;
     display: inline;
-    float: right;
 }
 
 @media (max-width: 371px) {
