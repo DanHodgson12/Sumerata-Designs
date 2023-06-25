@@ -212,7 +212,7 @@ as it messes with the layout of the navbar toggler and header title */
 
 /*.......... Copyright ..........*/
 
-.copyright h6 {
+.copyright p {
     font-weight: 200;
     font-size: 13px;
     line-height: 30px;
