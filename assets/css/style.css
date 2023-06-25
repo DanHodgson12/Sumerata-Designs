@@ -572,6 +572,13 @@ the review images change for medium screen sizes and above */
     }
 }
 
+#certi-img,
+#customer-img {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    width: 100%;
+}
+
 .card-img-overlay {
     position: absolute;
     top: auto;
