@@ -382,10 +382,10 @@ The project was deployed to GitHub Pages using the following steps:
 
 ## Media
 
-* Sumersata Designs provided the [Logo](/assets/readme-files/sumersata_logo.jpg), the [About](/assets/readme-files/p_j.jpeg) image, [Customer](/assets/readme-files/customer-image.jpg) image, [Certificate](/assets/readme-files/certificate.jpeg) image, [Market](/assets/readme-files/market.jpg) image and Gallery images.
+* Sumersata Designs provided the 'Logo', the 'About' image, 'Customer' image, 'Certificate' image, 'Market' image and Gallery images.
 * The reviews are real reviews taken from Sumersata Designs' [CraftCourses.com](https://www.craftcourses.com/in-person-and-online-courses-craft-kits-and-handcrafted-gifts?keyword=sumersata&location=Somerset) page.
 * The [full screen background image](/assets/images/contact/sd-contact-bg.jpg) for the 'Contact Us' page was taken from [Pexels](https://www.pexels.com/photo/person-doing-calligraphy-6232452/) and was created by [Anastasia Shuraeva](https://www.pexels.com/@anastasia-shuraeva/).
-* The [ETSY](/assets/readme-files/etsy.jpg) and [CraftCourses.com](/assets/readme-files/craftcourses.jpg) logos were sampled from their respective websites then adjusted for this website.
+* The 'ETSY' and 'CraftCourses.com' logos were sampled from their respective websites then adjusted for this website.
 
 ## Code
 
