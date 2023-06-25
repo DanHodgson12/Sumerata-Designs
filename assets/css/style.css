@@ -536,16 +536,17 @@ container instead of the default 33.33333% */
     text-decoration: none;
 }
 
-@media (min-width: 415px) {
-    .review-stars {
-        display: inline;
-        float: right;
-    }
-}
-
 .review-stars {
     margin-left: 17px;
-    margin-right: 17px;
+    display: inline;
+    float: right;
+}
+
+@media (max-width: 371px) {
+    .review-stars {
+        display: block;
+        float: none;
+    }
 }
 
 /* I used this website https: //stackoverflow.com/questions/2570972/css-font-border for help giving the stars 
