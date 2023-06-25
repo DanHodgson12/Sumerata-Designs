@@ -10,6 +10,17 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
 
 ---
 
+# Table Of Contents
+
+1. [User Experience(UX)](#user-experience-ux)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Finished Product](#finished-product)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [Acknowledgements](#acknowledgements)
+
 # User Experience (UX)
 
 ## Project Goals
@@ -190,12 +201,12 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
 # Technologies Used
 
-## Languages Used
+## Languages
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 
-## Frameworks, Libraries and Programs Used
+## Frameworks, Libraries & Programs
 
 * [Google Fonts](https://fonts.google.com/)
   * Google fonts was used to import Lora and Roboto Condensed into the head of each page. These fonts are used throughout the website.
