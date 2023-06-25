@@ -1,10 +1,12 @@
 # Sumersata Designs
 
+![Sumersata Designs Final Design](/assets/readme-files/sd_final.jpeg)
+
 Sumersata Designs is a craft-design business situated in the South West of England, offering unique crafted products and courses teaching people how to craft like them.
 
 The primary goal of this website is to provide an informative and easy-to-use platform for the user to explore products and coursesm offered by Sumersata Designs, as well as offer the ability for the user to contact the business for craft-design requests.
 
-Visit the deployed site here.
+Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/).
 
 ---
 
@@ -277,7 +279,16 @@ Lighthouse in Google Chrome Dev Tools was used to test performance, accessibilit
 ## Tools Testing
 
 * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-  * Google Chomr DevTools was used throughout the development process to test, exlpore and make changes to the HTML and CSS of the webpage.
+  * Google Chrome DevTools was used throughout the development process to test, exlpore and make changes to the HTML and CSS of the webpage.
+
+* Responsiveness
+  * [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness across a variety of devices and screen sizes.
+  * [Am I Responsive?](https://ui.dev/amiresponsive) was used to check responsiveness across different screen sizes and generate the mockup final image.
+  * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to check responsiveness across different screen sizes during the development and testing phases.
+
+## Manual Testing
+
+
 
 # Finished Product
 
