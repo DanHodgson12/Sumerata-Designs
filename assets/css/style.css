@@ -78,6 +78,7 @@ as it messes with the layout of the navbar toggler and header title */
 
 #navbar-logo img {
     width: 80px;
+    height: 100%;
 }
 
 @media (max-width:479px) {
@@ -476,6 +477,8 @@ container instead of the default 33.33333% */
 
 .shop-cards img {
     width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 .shop-image {
