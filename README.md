@@ -32,15 +32,15 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
 
 ## Colour Scheme
 
-![Colour Scheme](assets/readme-files/sd_color_scheme.png)
+![Colour Scheme](assets/readme-files/sd_colour_scheme.png)
 
 The colours used for this website are:
 
 * Lavender (#b0bdef) - for the header, footer and contact form
-* Beige (#d7d5c2) - for the background of the 'Reviews' section
 * Off-white (#fefefc) - for the navbar toggler, nav underlines, social links icons and main background color for each page and all cards
-* Light Grey (#5c5c5c) - for the social links, the background colour for the 'Address & Contact' section on the home page, the outline for the input fields of the contact form and the hover effect for the form submit button
 * Charcoal (#313131) - for the bulk of the text including the nav title, card text and contact form text, and the nav link underlines
+* Light Grey (#5c5c5c) - for the social links, the background colour for the 'Address & Contact' section on the home page, the outline for the input fields of the contact form and the hover effect for the form submit button
+* Beige (#d7d5c2) - for the background of the 'Reviews' section
 
 ## Typography
 
