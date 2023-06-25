@@ -364,7 +364,7 @@ This website was developed using [Codeanywhere](https://codeanywhere.com/solutio
 
 ## GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
 1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
 2. At the top of the Repository (not top of page), locate the "Settings" button on the menu bar
@@ -375,5 +375,24 @@ The project was deployed to GitHub Pages using the following steps...
 7. The published site link appears at the top of the "GitHub Pages" section
 
 # Credits
+
+## Content
+
+* All content was written by the developer.
+
+## Media
+
+* Sumersata Designs provided the [Logo](/assets/images/logo/sumersata_logo.jpg), the [About](/assets/images/home-page/p_j.jpeg) image, [Customer](/assets/images/home-page/customer-image.jpg) image, [Certificate](/assets/images/home-page/certificate.jpeg) image and Gallery images.
+* The reviews are real reviews taken from Sumersata Designs' [CraftCourses.com](https://www.craftcourses.com/in-person-and-online-courses-craft-kits-and-handcrafted-gifts?keyword=sumersata&location=Somerset) page.
+* The [full screen background image](/assets/images/contact/sd-contact-bg.jpg) for the 'Contact Us' page was taken from [Pexels](https://www.pexels.com/photo/person-doing-calligraphy-6232452/) and was created by [Anastasia Shuraeva](https://www.pexels.com/@anastasia-shuraeva/).
+
+## Code
+
+* [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used throughout to help with responsiveness and styling purposes.
+* [Font Awesome](https://fontawesome.com/) was used for adding the social link icons and review star icons.
+* [W3Schools](https://www.w3schools.com/) & [Stack Overflow](https://stackoverflow.co/teams/) were utilised to help overcome roadblocks in the developer's coding knowledge.
+* [Stack Overflow](https://stackoverflow.com/questions/2570972/css-font-border) was used for help giving the review stars a slight border in order to make the stars stand out.
+* [Stack Overflow](https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) was also used for help with an issue on the Contact Us page, where the background image was not pushing the footer to the bottom of the page.
+* [CSS Scan](https://getcssscan.com/css-buttons-examples) was used for adding the button to the contact form (Button 24).
 
 # Acknowledgements
