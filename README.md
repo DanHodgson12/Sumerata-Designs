@@ -288,7 +288,17 @@ Lighthouse in Google Chrome Dev Tools was used to test performance, accessibilit
 
 ## Manual Testing
 
+* Browser Compatibility
 
+Browser | Outcome | Pass/Fail
+--- | --- | ---
+Google Chrome | No appearance, responsiveness or functionality issues | Pass
+Safari | No appearance, responsiveness or functionality issues | Pass
+Mozilla Firefox | No appearance, responsiveness or functionality issues | Pass
+Microsoft Edge | No appearance, responsiveness or functionality issues | Pass
+  
+* Device compatibility
+  * The website was tested across a wide varietty of devices using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) & [Responsive Design Checker](https://www.responsivedesignchecker.com/) - no appearance, responsiveness or functionality issues were found.
 
 # Finished Product
 
