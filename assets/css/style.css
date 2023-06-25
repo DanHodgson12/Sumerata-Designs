@@ -287,8 +287,8 @@ nav-links for the icon and background colors to match styling */
     object-fit: cover;
 }
 
-/* Added a hover effect for the gallery images for larger screen sizes */
-@media (min-width:1024px) {
+/* Added a hover effect for the gallery images for extra large screen sizes */
+@media (min-width:1400px) {
     #gallery img {
         opacity: 0.8;
         transition: 0.5s;
