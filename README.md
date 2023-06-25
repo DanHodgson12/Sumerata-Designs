@@ -349,7 +349,13 @@ Submit Button | Hover effect works as expected and submits form | Pass
 
 # Finished Product
 
+Page | Image
+--- | ---
+Home Page | ![Home Page Image](/assets/readme-files/home-page-full.png) Note: The interactive google map did not show in the full screenshot.
+Gallery | ![Gallery Page Image](/assets/readme-files/gallery_full.png)
+Contact Us | ![Contact Us Page Image](/assets/readme-files/contact-full.png)
 
+[Back to top &#8682;](#sumersata-designs)
 
 # Deployment
 
