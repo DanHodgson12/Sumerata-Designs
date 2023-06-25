@@ -1,6 +1,6 @@
 # Sumersata Designs
 
-![Sumersata Designs Final Design](/assets/readme-files/sd_final.jpeg)
+![Sumersata Designs Final Design](/assets/readme-files/sd-mockup-final.jpeg)
 
 Sumersata Designs is a craft-design business situated in the South West of England, offering unique crafted products and courses teaching people how to craft like them. The business owners are relatives of the developer: Pauline (Mother) & Janet (Auntie).
 
