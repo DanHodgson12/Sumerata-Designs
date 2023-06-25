@@ -274,6 +274,11 @@ Lighthouse in Google Chrome Dev Tools was used to test performance, accessibilit
 
 ![Contact Us page Lighthouse Report](/assets/readme-files/lh-contact.jpeg)
 
+## Tools Testing
+
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  * Google Chomr DevTools was used throughout the development process to test, exlpore and make changes to the HTML and CSS of the webpage.
+
 # Finished Product
 
 # Deployment
