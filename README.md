@@ -58,6 +58,8 @@ Home section | ![Home section wireframe image](/assets/readme-files/home-section
 Gallery section | ![Gallery section wireframe image](/assets/readme-files/gallery-section.png)
 Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/contact-us-section.png)
 
+[Back to top &#8682;](#sumersata-designs)
+
 # Features
 
 ## General
@@ -184,6 +186,8 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
 ![Contact Us page on smaller screen sizes](/assets/readme-files/contact-sm.jpeg)
 
+[Back to top &#8682;](#sumersata-designs)
+
 # Technologies Used
 
 ## Languages Used
@@ -216,6 +220,8 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
 * [Favicon.io](https://favicon.io/)
   * Favicon.io was used to create the site favicon.
+
+[Back to top &#8682;](#sumersata-designs)
 
 # Testing
 
@@ -288,7 +294,7 @@ Lighthouse in Google Chrome Dev Tools was used to test performance, accessibilit
 
 ## Manual Testing
 
-* Browser Compatibility
+### Browser Compatibility
 
 Browser | Outcome | Pass/Fail
 --- | --- | ---
@@ -297,10 +303,53 @@ Safari | No appearance, responsiveness or functionality issues | Pass
 Mozilla Firefox | No appearance, responsiveness or functionality issues | Pass
 Microsoft Edge | No appearance, responsiveness or functionality issues | Pass
   
-* Device compatibility
-  * The website was tested across a wide varietty of devices using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) & [Responsive Design Checker](https://www.responsivedesignchecker.com/) - no appearance, responsiveness or functionality issues were found.
+### Device compatibility
+
+* The website was tested across a wide varietty of devices using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) & [Responsive Design Checker](https://www.responsivedesignchecker.com/) - no appearance, responsiveness or functionality issues were found.
+
+### Common Elements Testing
+
+#### General
+  
+Feature | Outcome | Pass/Fail
+--- | --- | ---
+  NavBar Logo | Takes user back to home page as expected | Pass
+  NavBar Title | Takes user back to home page as expected | Pass
+  Nav Links | Each link takes user to relevant page | Pass
+  Nav Link Hover | Shows underline when hovering over links as expected | Pass
+  Nav Link Active | Shows underline on active page as expected | Pass
+  Nav Toggler | Collapses and exapands with no visible issues | Pass
+  Social Links | Each link opens in a new page | Pass
+
+#### Home Page
+
+Feature | Outcome | Pass/Fail
+--- | --- | ---
+Shop Cards | Each link opens in a new tab | Pass
+Shop Card Hover | Each card has a border shadow when hovered over as expected | Pass
+Review Figcaptions | Each link opens to the relevant review source | Pass
+Google Map | Interactive map functions as expected | Pass
+
+#### Gallery
+
+Feature | Outcome | Pass/Fail
+--- | --- | ---
+Gallery Images | Number of columns change at breakpoint as expected | Pass
+Gallery Image Hover | Hover effect only appears at extra large breakpoint as expected | Pass
+
+#### Contact Us Page
+
+Feature | Outcome | Pass/Fail
+--- | --- | ---
+Form Inputs | Name and Email inputs required to submit form | Pass
+Form Inputs cont. | Design Idea field optional, can be expanded, minimum height effective | Pass
+Submit Button | Hover effect works as expected and submits form | Pass
+
+[Back to top &#8682;](#sumersata-designs)
 
 # Finished Product
+
+
 
 # Deployment
 
