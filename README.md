@@ -12,34 +12,72 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
 
 # Table Of Contents
 
-1. [User Experience(UX)](#user-experience-ux)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Testing](#testing)
-5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Acknowledgements](#acknowledgements)
+- [Sumersata Designs](#sumersata-designs)
+- [Table Of Contents](#table-of-contents)
+- [User Experience (UX)](#user-experience-ux)
+  - [Project Goals](#project-goals)
+  - [User Stories](#user-stories)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Wireframes](#wireframes)
+- [Features](#features)
+  - [General](#general)
+    - [Header](#header)
+    - [Footer](#footer)
+  - [Home Page](#home-page)
+    - [About Us](#about-us)
+    - [Shops/Courses/Events](#shopscoursesevents)
+    - [Reviews/Testimonies](#reviewstestimonies)
+    - [Address/Map](#addressmap)
+  - [Gallery Page](#gallery-page)
+  - [Contact-Us Page](#contact-us-page)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Frameworks, Libraries \& Programs](#frameworks-libraries--programs)
+- [Testing](#testing)
+  - [Testing User Stories](#testing-user-stories)
+  - [Code Validation](#code-validation)
+  - [Lighthouse Report](#lighthouse-report)
+    - [Home Page](#home-page-1)
+    - [Gallery Page](#gallery-page-1)
+    - [Contact Us Page](#contact-us-page-1)
+  - [Tools Testing](#tools-testing)
+  - [Manual Testing](#manual-testing)
+    - [Browser Compatibility](#browser-compatibility)
+    - [Device compatibility](#device-compatibility)
+    - [Common Elements Testing](#common-elements-testing)
+      - [General](#general-1)
+      - [Home Page](#home-page-2)
+      - [Gallery](#gallery)
+      - [Contact Us Page](#contact-us-page-2)
+- [Finished Product](#finished-product)
+- [Deployment](#deployment)
+  - [GitHub Pages](#github-pages)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+  - [Code](#code)
+- [Acknowledgements](#acknowledgements)
 
 # User Experience (UX)
 
 ## Project Goals
 
-* The website can be easily navigated and understood.
-* Explains who Sumersata Designs are and what they have to offer.
-* Contains clear imagery and content.
-* Clearly outlines where to purchase products and courses offered.
-* Shows a vibrant image gallery of craft designs.
-* Provides a simple contact form.
+- The website can be easily navigated and understood.
+- Explains who Sumersata Designs are and what they have to offer.
+- Contains clear imagery and content.
+- Clearly outlines where to purchase products and courses offered.
+- Shows a vibrant image gallery of craft designs.
+- Provides a simple contact form.
 
 ## User Stories
 
-* As a user, I want to be able to navigate the website easily.
-* As a user, I want to know who Sumersata Designs are.
-* As a user, I want to know how and where to purchase products and courses.
-* As a user, I want to see a selection of previous/current designs.
-* As a user, I want to be able to contact Sumersata Designs easily.
-* As a user, I want to be able to view the website on a variety of screen sizes.
+- As a user, I want to be able to navigate the website easily.
+- As a user, I want to know who Sumersata Designs are.
+- As a user, I want to know how and where to purchase products and courses.
+- As a user, I want to see a selection of previous/current designs.
+- As a user, I want to be able to contact Sumersata Designs easily.
+- As a user, I want to be able to view the website on a variety of screen sizes.
 
 ## Colour Scheme
 
@@ -47,11 +85,11 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
 
 The colours used for this website are:
 
-* Lavender (#b0bdef) - for the header, footer and contact form
-* Off-white (#fefefc) - for the navbar toggler, nav underlines, social links icons and main background color for each page and all cards
-* Charcoal (#313131) - for the bulk of the text including the nav title, card text and contact form text, and the nav link underlines
-* Light Grey (#5c5c5c) - for the social links, the background colour for the 'Address & Contact' section on the home page, the outline for the input fields of the contact form and the hover effect for the form submit button
-* Beige (#d7d5c2) - for the background of the 'Reviews' section
+- Lavender (#b0bdef) - for the header, footer and contact form
+- Off-white (#fefefc) - for the navbar toggler, nav underlines, social links icons and main background color for each page and all cards
+- Charcoal (#313131) - for the bulk of the text including the nav title, card text and contact form text, and the nav link underlines
+- Light Grey (#5c5c5c) - for the social links, the background colour for the 'Address & Contact' section on the home page, the outline for the input fields of the contact form and the hover effect for the form submit button
+- Beige (#d7d5c2) - for the background of the 'Reviews' section
 
 ## Typography
 
@@ -75,8 +113,8 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
 
 ## General
 
-* The website was designed from a mobile-first perspective.
-* The website is responsive on all screen sizes, including very small screens such as the Galaxy Fold.
+- The website was designed from a mobile-first perspective.
+- The website is responsive on all screen sizes, including very small screens such as the Galaxy Fold.
 
 ### Header
 
@@ -84,9 +122,9 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
 
 The header consists of:
 
-* The business logo in the top left - this is a clickable link that takes the user to the home page.
-* The business name/title and their slogan - this is also a clickable link that takes the user to the home page.
-* Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page.
+- The business logo in the top left - this is a clickable link that takes the user to the home page.
+- The business name/title and their slogan - this is also a clickable link that takes the user to the home page.
+- Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page.
 
 On medium and small screen sizes, the navigation links turn into a Navbar Toggler which expands and collapses when clicked on.
 
@@ -106,13 +144,13 @@ On very small screen widths - 333px or less - the logo gets hidden otherwise the
 
 The footer consists of:
 
-* Copyright information on the left.
-* Social links on the right - these are clickable links that go to their respective social pages:
-  * Etsy
-  * Facebook
-  * Instagram
-  * Twitter
-  * Youtube
+- Copyright information on the left.
+- Social links on the right - these are clickable links that go to their respective social pages:
+  - Etsy
+  - Facebook
+  - Instagram
+  - Twitter
+  - Youtube
 
 On medium and small screen sizes, the social links and copyright information stack on top of each other. This seems more visually appealing and stops the footer becoming cramped.
 
@@ -120,7 +158,7 @@ On medium and small screen sizes, the social links and copyright information sta
 
 ## Home Page
 
-* The content of all sections of the home page stays the same - only layout and sizing changes.
+- The content of all sections of the home page stays the same - only layout and sizing changes.
 
 ### About Us
 
@@ -128,8 +166,8 @@ On medium and small screen sizes, the social links and copyright information sta
 
 The About section consists of:
 
-* An image of the business owners.
-* Text explaining the 'who' and 'what' of the business.
+- An image of the business owners.
+- Text explaining the 'who' and 'what' of the business.
 
 ### Shops/Courses/Events
 
@@ -137,9 +175,9 @@ The About section consists of:
 
 This section consists of three cards describing and taking the user to the following:
 
-* Shop - the [Sumersata Designs Etsy](https://www.etsy.com/shop/SumersataDesigns) store where the user can browse or purchase pre-made designs.
-* Courses - the [CraftCourses.com](https://www.craftcourses.com/craft-workshops?keyword=sumersata) website where the user can browse or purchase crafting courses that Sumersata Designs offer.
-* Events - the [Sumersata Designs Facebook](https://www.facebook.com/SumersataDesigns) page where the user can see any upcoming events for the business.
+- Shop - the [Sumersata Designs Etsy](https://www.etsy.com/shop/SumersataDesigns) store where the user can browse or purchase pre-made designs.
+- Courses - the [CraftCourses.com](https://www.craftcourses.com/craft-workshops?keyword=sumersata) website where the user can browse or purchase crafting courses that Sumersata Designs offer.
+- Events - the [Sumersata Designs Facebook](https://www.facebook.com/SumersataDesigns) page where the user can see any upcoming events for the business.
 
 These are all clickable links and there's a hover effect for each card to accentuate this.
 
@@ -149,17 +187,17 @@ These are all clickable links and there's a hover effect for each card to accent
 
 The Reviews section consists of:
 
-* The top rated reviews left by customers who've experienced courses offered by Sumersata Designs.
-* An annotated image of a customer whom attended a course and left a review.
-* A Silver Certificate of Excellence awarded to Sumersata Designs by CraftCourses.com.
+- The top rated reviews left by customers who've experienced courses offered by Sumersata Designs.
+- An annotated image of a customer whom attended a course and left a review.
+- A Silver Certificate of Excellence awarded to Sumersata Designs by CraftCourses.com.
 
 ### Address/Map
 
 ![Address/Map image](/assets/readme-files/address-section.jpeg)
 This section consists of:
 
-* The business address and contact email address.
-* An interactive Google Map pinned to the business address.
+- The business address and contact email address.
+- An interactive Google Map pinned to the business address.
 
 ## Gallery Page
 
@@ -167,7 +205,7 @@ This section consists of images of a selection of designs by Sumersata Designs. 
 
 The layout of the gallery columns and sizing changes depending on screen size (pictured below), but the content stays the same.
 
-* On screens wider than 1024px, all gallery images are reduced in opacity, with an effect that reveals each image when you hover over them.
+- On screens wider than 1024px, all gallery images are reduced in opacity, with an effect that reveals each image when you hover over them.
 
 Screen Size | Gallery
 --- | ---
@@ -177,17 +215,17 @@ Phone | ![Phone Gallery image](/assets/readme-files/gallery-sm.jpeg)
 
 ## Contact-Us Page
 
-* The content of all sections of the home page stays the same - only layout and sizing changes.
+- The content of all sections of the home page stays the same - only layout and sizing changes.
 
 This section consists of:
 
-* A full screen background image in the form of a wrapper around Header, Main section and Footer.
-* A contact form containing the following inputs:
-  * Name
-  * Email
-  * Textarea - where users can request a design idea
-  * Checkbox - where users can sign up to the weekly newsletter
-  * Submit button
+- A full screen background image in the form of a wrapper around Header, Main section and Footer.
+- A contact form containing the following inputs:
+  - Name
+  - Email
+  - Textarea - where users can request a design idea
+  - Checkbox - where users can sign up to the weekly newsletter
+  - Submit button
 
 On larger screen sizes, the form is positioned to the left of the screen in order to show more of the background image. This also helps the form remain a sensible width and remain visually appealing.
 
@@ -203,34 +241,34 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
 ## Languages
 
-* [HTML](https://en.wikipedia.org/wiki/HTML)
-* [CSS](https://en.wikipedia.org/wiki/CSS)
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks, Libraries & Programs
 
-* [Google Fonts](https://fonts.google.com/)
-  * Google fonts was used to import Lora and Roboto Condensed into the head of each page. These fonts are used throughout the website.
+- [Google Fonts](https://fonts.google.com/)
+  - Google fonts was used to import Lora and Roboto Condensed into the head of each page. These fonts are used throughout the website.
 
-* [Font Awesome](https://fontawesome.com/)
-  * Font Awesome was used to add icons for the social links and stars for the reviews section, to add a better user experience.
+- [Font Awesome](https://fontawesome.com/)
+  - Font Awesome was used to add icons for the social links and stars for the reviews section, to add a better user experience.
 
-* [CodeAnywhere](https://app.codeanywhere.com/)
-  * CodeAnywhere was used for writing, committing and pushing the code to GitHub.
+- [CodeAnywhere](https://app.codeanywhere.com/)
+  - CodeAnywhere was used for writing, committing and pushing the code to GitHub.
 
-* [Bootstrap](https://getbootstrap.com/)
-  * Bootstrap was used to develop a responsive mobile-first design using an assortment of templates.
+- [Bootstrap](https://getbootstrap.com/)
+  - Bootstrap was used to develop a responsive mobile-first design using an assortment of templates.
 
-* [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-  * Chrome DevTools was used throughout the development of the website to test ideas and responsiveness, and debug issues that arose.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  - Chrome DevTools was used throughout the development of the website to test ideas and responsiveness, and debug issues that arose.
 
-* [W3C Markup Validator](https://validator.w3.org/)
-  * W3C Markup Validator was used to validate the HTML code.
+- [W3C Markup Validator](https://validator.w3.org/)
+  - W3C Markup Validator was used to validate the HTML code.
 
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-  * W3C CSS Validator was used to validate the CSS code.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+  - W3C CSS Validator was used to validate the CSS code.
 
-* [Favicon.io](https://favicon.io/)
-  * Favicon.io was used to create the site favicon.
+- [Favicon.io](https://favicon.io/)
+  - Favicon.io was used to create the site favicon.
 
 [Back to top &#8682;](#sumersata-designs)
 
@@ -238,41 +276,41 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
 ## Testing User Stories
 
-* As a user, I want to be able to navigate the website easily.
-  * Navigation links have been placed at the top right of the page for easy navigation across each page.
-  * A white underline on the navigation link indicates which page the user is currently on.
-  * Darker underlines appear when the user hovers over each link.
-  * The Header's Logo is clickable and takes the user back to the home page, as it [standard practice](https://www.nngroup.com/articles/homepage-links/) with modern websites.
-* As a user, I want to know who Sumersata Designs are.
-  * An About section explains to the user who the business owners are and what they have to offer.
-  * A image of the business owners let the user see the business owners.
-* As a user, I want to know how and where to purchase products and courses.
-  * The Etsy 'shop card' let's the user visit the Sumersata Designs Etsy storefront and browse products.
-  * The Courses 'shop card' let's the user visit the Sumersata Designs CraftCourses storefront and browse courses taught by the business.
-  * Each card is a clickable link.
-  * Each card is accentuated by a shadow when the user hovers over them.
-  * The reviews section provides the user with reassurance.
-* As a user, I want to see a selection of previous/current designs.
-  * The Gallery page displays a wide range of products designed by Sumersata Designs.
-* As a user, I want to be able to contact Sumersata Designs easily.
-  * The Contact Us page let's the user fill in their details to get in touch with Sumersata Designs.
-  * The Home page also provides the user with a contact email.
-  * The Home page contains an address for the business and an interactive map to find the business.
-* As a user, I want to be able to view the website on a variety of screen sizes.
-  * The website is responsive across all screen sizes.
+- As a user, I want to be able to navigate the website easily.
+  - Navigation links have been placed at the top right of the page for easy navigation across each page.
+  - A white underline on the navigation link indicates which page the user is currently on.
+  - Darker underlines appear when the user hovers over each link.
+  - The Header's Logo is clickable and takes the user back to the home page, as it [standard practice](https://www.nngroup.com/articles/homepage-links/) with modern websites.
+- As a user, I want to know who Sumersata Designs are.
+  - An About section explains to the user who the business owners are and what they have to offer.
+  - A image of the business owners let the user see the business owners.
+- As a user, I want to know how and where to purchase products and courses.
+  - The Etsy 'shop card' let's the user visit the Sumersata Designs Etsy storefront and browse products.
+  - The Courses 'shop card' let's the user visit the Sumersata Designs CraftCourses storefront and browse courses taught by the business.
+  - Each card is a clickable link.
+  - Each card is accentuated by a shadow when the user hovers over them.
+  - The reviews section provides the user with reassurance.
+- As a user, I want to see a selection of previous/current designs.
+  - The Gallery page displays a wide range of products designed by Sumersata Designs.
+- As a user, I want to be able to contact Sumersata Designs easily.
+  - The Contact Us page let's the user fill in their details to get in touch with Sumersata Designs.
+  - The Home page also provides the user with a contact email.
+  - The Home page contains an address for the business and an interactive map to find the business.
+- As a user, I want to be able to view the website on a variety of screen sizes.
+  - The website is responsive across all screen sizes.
 
 ## Code Validation
 
-* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to checl for any code errors or misuse of syntax/elements.
+- The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to checl for any code errors or misuse of syntax/elements.
 
-  * The W3C Markup Validator returned a few errors:
+  - The W3C Markup Validator returned a few errors:
 
-    * The use of an aria-label on a div element which containtd a background image. This was overcome by adding an "sr-only" Bootstrap class to a 'p' element which a description of the image.
-    * The use of a div element inside a figure element. This was overcome by changing the element to a span and moving it inside the ficcaption element.
-    * The use of a 'section' element without a heading. This was overcome by removing it altogether, as it didn't serve a purpose.
-    * The form inputs and labels missing ID attributes which were added shortly after.
+    - The use of an aria-label on a div element which containtd a background image. This was overcome by adding an "sr-only" Bootstrap class to a 'p' element which a description of the image.
+    - The use of a div element inside a figure element. This was overcome by changing the element to a span and moving it inside the ficcaption element.
+    - The use of a 'section' element without a heading. This was overcome by removing it altogether, as it didn't serve a purpose.
+    - The form inputs and labels missing ID attributes which were added shortly after.
 
-  * The W3C CSS Validator returned no errors in the code.
+  - The W3C CSS Validator returned no errors in the code.
 
 ## Lighthouse Report
 
@@ -280,8 +318,8 @@ Lighthouse in Google Chrome Dev Tools was used to test performance, accessibilit
 
 ### Home Page
 
-* Performance was somewhat hindered by an error message stating that the images didn't have efficient cache policies - performance was different on each lighthouse report despite no changes made.
-* Suggestions were made to reduce file size. Decided not to as the images on this page were already at the smallest file size and pixel width/height they could be before image distortion.
+- Performance was somewhat hindered by an error message stating that the images didn't have efficient cache policies - performance was different on each lighthouse report despite no changes made.
+- Suggestions were made to reduce file size. Decided not to as the images on this page were already at the smallest file size and pixel width/height they could be before image distortion.
   
 ![Home Page Lighthouse Report](/assets/readme-files/lh-home.jpeg)
 
@@ -295,13 +333,13 @@ Lighthouse in Google Chrome Dev Tools was used to test performance, accessibilit
 
 ## Tools Testing
 
-* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-  * Google Chrome DevTools was used throughout the development process to test, exlpore and make changes to the HTML and CSS of the webpage.
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+  - Google Chrome DevTools was used throughout the development process to test, exlpore and make changes to the HTML and CSS of the webpage.
 
-* Responsiveness
-  * [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness across a variety of devices and screen sizes.
-  * [Am I Responsive?](https://ui.dev/amiresponsive) was used to check responsiveness across different screen sizes and generate the mockup final image.
-  * [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to check responsiveness across different screen sizes during the development and testing phases.
+- Responsiveness
+  - [Responsive Design Checker](https://www.responsivedesignchecker.com/) was used to check responsiveness across a variety of devices and screen sizes.
+  - [Am I Responsive?](https://ui.dev/amiresponsive) was used to check responsiveness across different screen sizes and generate the mockup final image.
+  - [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to check responsiveness across different screen sizes during the development and testing phases.
 
 ## Manual Testing
 
@@ -316,7 +354,7 @@ Microsoft Edge | No appearance, responsiveness or functionality issues | Pass
   
 ### Device compatibility
 
-* The website was tested across a wide varietty of devices using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) & [Responsive Design Checker](https://www.responsivedesignchecker.com/) - no appearance, responsiveness or functionality issues were found.
+- The website was tested across a wide varietty of devices using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) & [Responsive Design Checker](https://www.responsivedesignchecker.com/) - no appearance, responsiveness or functionality issues were found.
 
 ### Common Elements Testing
 
@@ -389,28 +427,28 @@ The project was deployed to GitHub Pages using the following steps:
 
 ## Content
 
-* All content was written by the developer.
+- All content was written by the developer.
 
 ## Media
 
-* Sumersata Designs provided the 'Logo', the 'About' image, 'Customer' image, 'Certificate' image, 'Market' image and Gallery images.
-* The reviews are real reviews taken from Sumersata Designs' [CraftCourses.com](https://www.craftcourses.com/in-person-and-online-courses-craft-kits-and-handcrafted-gifts?keyword=sumersata&location=Somerset) page.
-* The [full screen background image](/assets/images/contact/sd-contact-bg.jpg) for the 'Contact Us' page was taken from [Pexels](https://www.pexels.com/photo/person-doing-calligraphy-6232452/) and was created by [Anastasia Shuraeva](https://www.pexels.com/@anastasia-shuraeva/).
-* The 'ETSY' and 'CraftCourses.com' logos were sampled from their respective websites then adjusted for this website.
+- Sumersata Designs provided the 'Logo', the 'About' image, 'Customer' image, 'Certificate' image, 'Market' image and Gallery images.
+- The reviews are real reviews taken from Sumersata Designs' [CraftCourses.com](https://www.craftcourses.com/in-person-and-online-courses-craft-kits-and-handcrafted-gifts?keyword=sumersata&location=Somerset) page.
+- The [full screen background image](/assets/images/contact/sd-contact-bg.jpg) for the 'Contact Us' page was taken from [Pexels](https://www.pexels.com/photo/person-doing-calligraphy-6232452/) and was created by [Anastasia Shuraeva](https://www.pexels.com/@anastasia-shuraeva/).
+- The 'ETSY' and 'CraftCourses.com' logos were sampled from their respective websites then adjusted for this website.
 
 ## Code
 
-* [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used throughout to help with responsiveness and styling purposes.
-* [Font Awesome](https://fontawesome.com/) was used for adding the social link icons and review star icons.
-* [W3Schools](https://www.w3schools.com/) & [Stack Overflow](https://stackoverflow.co/teams/) were utilised to help overcome roadblocks in the developer's coding knowledge.
-* [Stack Overflow](https://stackoverflow.com/questions/2570972/css-font-border) was used for help giving the review stars a slight border in order to make the stars stand out.
-* [Stack Overflow](https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) was also used for help with an issue on the Contact Us page, where the background image was not pushing the footer to the bottom of the page.
-* [CSS Scan](https://getcssscan.com/css-buttons-examples) was used for adding the button to the contact form (Button 24).
+- [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was used throughout to help with responsiveness and styling purposes.
+- [Font Awesome](https://fontawesome.com/) was used for adding the social link icons and review star icons.
+- [W3Schools](https://www.w3schools.com/) & [Stack Overflow](https://stackoverflow.co/teams/) were utilised to help overcome roadblocks in the developer's coding knowledge.
+- [Stack Overflow](https://stackoverflow.com/questions/2570972/css-font-border) was used for help giving the review stars a slight border in order to make the stars stand out.
+- [Stack Overflow](https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) was also used for help with an issue on the Contact Us page, where the background image was not pushing the footer to the bottom of the page.
+- [CSS Scan](https://getcssscan.com/css-buttons-examples) was used for adding the button to the contact form (Button 24).
 
 # Acknowledgements
 
-* My family, for their valuable opinions and unconditional support.
-* My tutor Marcel, for his encouraging feedback and patience during my learning journey.
-* Code Institute, for its wonderful learning platform and supportive community.
+- My family, for their valuable opinions and unconditional support.
+- My mentor Marcel, for his encouraging feedback and patience during my learning journey.
+- Code Institute, for its wonderful learning platform and supportive community.
 
 [Back to top &#8682;](#sumersata-designs)
