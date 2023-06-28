@@ -55,6 +55,7 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
 - [Finished Product](#finished-product)
 - [Deployment](#deployment)
   - [GitHub Pages](#github-pages)
+  - [Making a Local Clone](#making-a-local-clone)
 - [Credits](#credits)
   - [Content](#content)
   - [Media](#media)
@@ -444,16 +445,27 @@ This website was developed using [Codeanywhere](https://codeanywhere.com/solutio
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
-2. At the top of the Repository (not top of page), locate the "Settings" button on the menu bar
-   ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png)
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs).
+2. At the top of the page, locate the "Settings" button on the menu bar
+   ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png).
 3. Under "Code and automation" on the left hand side of the window, click the "Pages" tab
-   ![Deployment Instructions Part 1](/assets/readme-files/deployment-2.png)
-4. Under "Source", select the option "Deploy from a branch"
-5. Under "Branch", select the option "main", then select the "/(root)" folder
-6. Click "Save" and the page will refresh
-7. The published site link appears at the top of the "GitHub Pages" section
-8. Click "Visit Site" and the website will open
+   ![Deployment Instructions Part 1](/assets/readme-files/deployment-2.png).
+4. Under "Source", select the option "Deploy from a branch".
+5. Under "Branch", select the option "main", then select the "/(root)" folder.
+6. Click "Save" and the page will refresh.
+7. The published site link appears at the top of the "GitHub Pages" section.
+8. Click "Visit Site" and the website will open.
+
+## Making a Local Clone
+
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs).
+2. At the top of the Repository (not top of page), locate and click on the "< > Code" button on the menu bar.
+3. In the "Local" tab, beneath where it says "Clone", select the "HTTPS" option.
+4. Just below that, copy the link for the repository.
+5. Open Git Bash.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type `git clone`, and then paste the URL you copied in Step 3.
+8. Press Enter. Your local clone will be created.
 
 # Credits
 
