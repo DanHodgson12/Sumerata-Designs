@@ -432,6 +432,7 @@ Page | Image
 Home Page | ![Home Page Image](/assets/readme-files/home-page-full.png) Note: The interactive google map did not show in the full screenshot.
 Gallery | ![Gallery Page Image](/assets/readme-files/gallery_full.png)
 Contact Us | ![Contact Us Page Image](/assets/readme-files/contact-full.png)
+404 Error Page | ![404 Error Page Image](/assets/readme-files/error-404-full.png)
 
 [Back to top &#8682;](#table-of-contents)
 
