@@ -617,7 +617,7 @@ and adjusted the styling slightly to match the color theme of the website */
     justify-content: center;
 }
 
-.error-page img {
+.error-page div img {
     max-width: 525px;
     min-width: 220px;
     box-shadow: 0 0 3px 0px #888888;
