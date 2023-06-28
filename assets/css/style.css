@@ -607,3 +607,18 @@ and adjusted the styling slightly to match the color theme of the website */
 .button:active {
     opacity: .5;
 }
+
+/*-------- 404 Page --------*/
+
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-page img {
+    max-width: 525px;
+    min-width: 220px;
+    box-shadow: 0 0 3px 0px #888888;
+}
