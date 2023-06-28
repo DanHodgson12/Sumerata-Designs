@@ -31,6 +31,7 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
     - [Address/Map](#addressmap)
   - [Gallery Page](#gallery-page)
   - [Contact-Us Page](#contact-us-page)
+  - [404 Page](#404-page)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Frameworks, Libraries \& Programs](#frameworks-libraries--programs)
@@ -50,6 +51,7 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
       - [Home Page](#home-page-2)
       - [Gallery](#gallery)
       - [Contact Us Page](#contact-us-page-2)
+      - [404 Error Page](#404-error-page)
 - [Finished Product](#finished-product)
 - [Deployment](#deployment)
   - [GitHub Pages](#github-pages)
@@ -126,6 +128,8 @@ The header consists of:
 - The business name/title and their slogan - this is also a clickable link that takes the user to the home page.
 - Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page.
 
+The header sticks to the top of the page when scrolling and is used on all pages of the website.
+
 On medium and small screen sizes, the navigation links turn into a Navbar Toggler which expands and collapses when clicked.
 
 ![Header on medium and small screen sizes - collapsed](/assets/readme-files/header-sm-md-clpsd.jpeg)
@@ -151,6 +155,8 @@ The footer consists of:
   - Instagram
   - Twitter
   - Youtube
+
+The footer sticks to the bottom of the page when scrolling and is used on all pages of the website.
 
 On medium and small screen sizes, the social links and copyright information stack on top of each other. This seems more visually appealing and stops the footer becoming cramped.
 
@@ -234,6 +240,21 @@ On larger screen sizes, the form is positioned to the left of the screen in orde
 On smaller screen sizes, the width of the form covers around 80% of the width of the screen and is positioned centrally.
 
 ![Contact Us page on smaller screen sizes](/assets/readme-files/contact-sm.jpeg)
+
+## 404 Page
+
+![404 Error Page image](/assets/readme-files/error-404-page.jpeg)
+
+- This page shows when the user enters an incorrect version of the website's URL.
+
+The page consists of:
+
+- A '404 error' title
+- An amusing image to keep the page lighthearted
+- A message explaining how the user got to this page
+- Text explaining how to get back to the home page
+- A clickable button taking the user back to the home page
+  - This button has the same styling as the button on the contact form to keep the theme consistent
 
 [Back to top &#8682;](#table-of-contents)
 
@@ -394,6 +415,13 @@ Feature | Outcome | Pass/Fail
 Form Inputs | Name and Email inputs required to submit form | Pass
 Form Inputs cont. | Design Idea field optional, can be expanded, minimum height effective | Pass
 Submit Button | Hover effect works as expected and submits form | Pass
+
+#### 404 Error Page
+
+Feature | Outcome | Pass/Fail
+--- | --- | ---
+404 Error Page | Page appears when user enters incorrect URL | Pass
+Home Button | User is taken to home page as expected | Pass
 
 [Back to top &#8682;](#table-of-contents)
 
