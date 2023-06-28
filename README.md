@@ -31,7 +31,7 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
     - [Address/Map](#addressmap)
   - [Gallery Page](#gallery-page)
   - [Contact-Us Page](#contact-us-page)
-  - [404 Page](#404-page)
+  - [404 Error Page](#404-error-page)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Frameworks, Libraries \& Programs](#frameworks-libraries--programs)
@@ -51,7 +51,7 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
       - [Home Page](#home-page-2)
       - [Gallery](#gallery)
       - [Contact Us Page](#contact-us-page-2)
-      - [404 Error Page](#404-error-page)
+      - [404 Error Page](#404-error-page-1)
 - [Finished Product](#finished-product)
 - [Deployment](#deployment)
   - [GitHub Pages](#github-pages)
@@ -241,7 +241,7 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
 ![Contact Us page on smaller screen sizes](/assets/readme-files/contact-sm.jpeg)
 
-## 404 Page
+## 404 Error Page
 
 ![404 Error Page image](/assets/readme-files/error-404-page.jpeg)
 
@@ -446,11 +446,14 @@ The project was deployed to GitHub Pages using the following steps:
 
 1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
 2. At the top of the Repository (not top of page), locate the "Settings" button on the menu bar
-3. Under "Code and automation", click the "Pages" tab
+   ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png)
+3. Under "Code and automation" on the left hand side of the window, click the "Pages" tab
+   ![Deployment Instructions Part 1](/assets/readme-files/deployment-2.png)
 4. Under "Source", select the option "Deploy from a branch"
 5. Under "Branch", select the option "main", then select the "/(root)" folder
 6. Click "Save" and the page will refresh
 7. The published site link appears at the top of the "GitHub Pages" section
+8. Click "Visit Site" and the website will open
 
 # Credits
 
