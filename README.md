@@ -339,19 +339,30 @@ The page consists of:
 
 The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) services were used to check for any code errors or misuse of syntax/elements.
 
-  - The W3C Markup Validator returned a few errors:
+The W3C Markup Validator returned a few errors:
 
-    - The use of an aria-label on a div element which contained a background image. This was overcome by adding an "sr-only" Bootstrap class to a 'p' element which a description of the image.
-    ![Markup Validation Image 1](/assets/readme-files/markup-validation-1.png)
-    - The use of a span element inside a figure element. This was overcome by moving it inside the ficcaption element.
-    ![Markup Validation Image 2](/assets/readme-files/markup-validation-2.png)
-    - The use of a 'section' element without a heading. This was overcome by removing it altogether, as it didn't serve a purpose.
-    ![Markup Validation Image 3](/assets/readme-files/markup-validation-3.png)
-    - The form inputs and labels missing ID attributes which were added shortly after.
-    ![Markup Validation Image 4](/assets/readme-files/markup-validation-4.png)
+- The use of an `aria-label` on a `div` element which contained a background image. 
+    - This was overcome by adding an `sr-only` Bootstrap class to a `p` element with a description of the image.
 
-  - The W3C CSS Validator returned no errors in the code.
-  ![CSS Validation Image](/assets/readme-files/css-validation.png)
+![Markup Validation Image 1](/assets/readme-files/markup-validation-1.png)
+
+- The use of a `span` element inside a `figure` element. 
+    - This was overcome by moving it inside the `ficcaption` element.
+
+![Markup Validation Image 2](/assets/readme-files/markup-validation-2.png)
+    
+- The use of a `section` element without a heading. 
+    - This was overcome by removing it altogether, as it didn't serve a purpose.
+
+![Markup Validation Image 3](/assets/readme-files/markup-validation-3.png)
+
+- The form `inputs` and `labels` missing `ID` attributes.
+    - `ID` attributes were added shortly after to fix this issue.
+
+![Markup Validation Image 4](/assets/readme-files/markup-validation-4.png)
+
+- The W3C CSS Validator returned no errors in the code.
+![CSS Validation Image](/assets/readme-files/css-validation.png)
 
 ## Lighthouse Report
 
