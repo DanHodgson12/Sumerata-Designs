@@ -78,9 +78,13 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/)
 - As a user, I want to be able to navigate the website easily.
 - As a user, I want to know who Sumersata Designs are.
 - As a user, I want to know how and where to purchase products and courses.
+- As a user, I want to be able to visit Sumersata Designs' social media websites.
 - As a user, I want to see a selection of previous/current designs.
 - As a user, I want to be able to contact Sumersata Designs easily.
 - As a user, I want to be able to view the website on a variety of screen sizes.
+- As a user, I want to be able to get back to the Home page if I lose my way.
+
+[Go to 'Features' section](#features)
 
 ## Colour Scheme
 
@@ -118,6 +122,7 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
 
 - The website was designed from a mobile-first perspective.
 - The website is responsive on all screen sizes, including very small screens such as the Galaxy Fold.
+    - This allows the user to [view the website on a variety of screen sizes](#user-stories).
 
 ### Header
 
@@ -128,6 +133,7 @@ The header consists of:
 - The business logo in the top left - this is a clickable link that takes the user to the home page.
 - The business name/title and their slogan - this is also a clickable link that takes the user to the home page.
 - Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page.
+    - This let's the user [navigate the website easily](#user-stories).
 
 The header sticks to the top of the page when scrolling and is used on all pages of the website.
 
@@ -157,6 +163,8 @@ The footer consists of:
   - Twitter
   - Youtube
 
+This section of the footer [allows the user to visit Sumersata Designs' social media websites](#user-stories).
+
 The footer sticks to the bottom of the page when scrolling and is used on all pages of the website.
 
 On medium and small screen sizes, the social links and copyright information stack on top of each other. This seems more visually appealing and stops the footer becoming cramped.
@@ -165,7 +173,7 @@ On medium and small screen sizes, the social links and copyright information sta
 
 ## Home Page
 
-- The content of all sections of the home page stays the same - only layout and sizing changes.
+- The content of all sections of the Home page stays the same - only layout and sizing changes.
 
 ### About Us
 
@@ -175,6 +183,7 @@ The About section consists of:
 
 - An image of the business owners.
 - Text explaining the 'who' and 'what' of the business.
+    - This lets the [user know who Sumersata Designs are](#user-stories).
 
 ### Shops/Courses/Events
 
@@ -185,6 +194,8 @@ This section consists of three cards describing and taking the user to the follo
 - Shop - the [Sumersata Designs Etsy](https://www.etsy.com/shop/SumersataDesigns) store where the user can browse or purchase pre-made designs.
 - Courses - the [CraftCourses.com](https://www.craftcourses.com/craft-workshops?keyword=sumersata) website where the user can browse or purchase crafting courses that Sumersata Designs offer.
 - Events - the [Sumersata Designs Facebook](https://www.facebook.com/SumersataDesigns) page where the user can see any upcoming events for the business.
+
+This section lets the user [know how and where to purchase products and courses](#user-stories).
 
 These are all clickable links and there's a hover effect for each card to accentuate this.
 
@@ -208,9 +219,9 @@ This section consists of:
 
 ## Gallery Page
 
-This section consists of images of a selection of designs by Sumersata Designs. The gallery has been styled on the 'Masonry' layout, although altered to ensure there's no dead space at the bottom of the page.
+This section consists of images of a selection of designs by Sumersata Designs. This allows the user to [see a selection of previous/current designs](#user-stories).
 
-The layout of the gallery columns and sizing changes depending on screen size (pictured below), but the content stays the same.
+The gallery has been styled on the 'Masonry' layout, although altered to ensure there's no dead space at the bottom of the page. The layout of the gallery columns and sizing changes depending on screen size (pictured below), but the content stays the same.
 
 - On screens wider than 1400px, all gallery images are reduced in opacity, with an effect that reveals each image when you hover over it.
 
@@ -222,8 +233,6 @@ Phone | ![Phone Gallery image](/assets/readme-files/gallery-sm.jpeg)
 
 ## Contact-Us Page
 
-- The content of all sections of the home page stays the same - only layout and sizing changes.
-
 This section consists of:
 
 - A full screen background image in the form of a wrapper around the Header, Main section and Footer.
@@ -234,6 +243,8 @@ This section consists of:
   - Checkbox - where users can sign up to the weekly newsletter
   - Submit button
 
+This section allows the user to contact [Sumersata Designs easily](#user-stories).
+
 On larger screen sizes, the form is positioned to the left of the screen in order to show more of the background image. This also helps the form remain a sensible width and remain visually appealing.
 
 ![Contact Us Page on large screen sizes](/assets/readme-files/contact-lg.jpeg)
@@ -242,11 +253,14 @@ On smaller screen sizes, the width of the form covers around 80% of the width of
 
 ![Contact Us page on smaller screen sizes](/assets/readme-files/contact-sm.jpeg)
 
+The content of the Contact Us page stays the same - only layout and sizing changes.
+
 ## 404 Error Page
 
 ![404 Error Page image](/assets/readme-files/error-404-page.jpeg)
 
 - This page shows when the user enters an incorrect version of the website's URL.
+    - This helps the user [find their way back to the home page if they lose their way](#user-stories).
 
 The page consists of:
 
