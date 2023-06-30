@@ -137,7 +137,7 @@ The header consists of:
 
 The header sticks to the top of the page when scrolling and is used on all pages of the website.
 
-On medium and small screen sizes, the navigation links turn into a Navbar Toggler which expands and collapses when clicked.
+On medium and small screen sizes, the navigation links turn into a **Navbar Toggler** which expands and collapses when clicked.
 
 ![Header on medium and small screen sizes - collapsed](/assets/readme-files/header-sm-md-clpsd.jpeg)
 
@@ -317,21 +317,26 @@ The page consists of:
   - A white underline on the navigation link indicates which page the user is currently on.
   - Darker underlines appear when the user hovers over each link.
   - The Header's Logo is clickable and takes the user back to the home page, as is [standard practice](https://www.nngroup.com/articles/homepage-links/) with modern websites.
+
 - As a user, I want to know who Sumersata Designs are.
   - An About section explains to the user who the business owners are and what they have to offer.
   - A image of the business owners lets the user see who they are.
+
 - As a user, I want to know how and where to purchase products and courses.
   - The Etsy 'shop card' let's the user visit the Sumersata Designs Etsy storefront and browse products.
   - The Courses 'shop card' let's the user visit the Sumersata Designs CraftCourses.com storefront and browse courses taught by the business.
   - Each card is a clickable link.
   - Each card is accentuated by a shadow when the user hovers over it.
   - The reviews section provides the user with reassurance.
+
 - As a user, I want to see a selection of previous/current designs.
   - The Gallery page displays a wide range of products designed by Sumersata Designs.
+
 - As a user, I want to be able to contact Sumersata Designs easily.
   - The Contact Us page let's the user fill in their details to get in touch with Sumersata Designs.
   - The Home page also provides the user with a contact email.
   - The Home page contains an address for the business and an interactive map to find the business.
+  
 - As a user, I want to be able to view the website on a variety of screen sizes.
   - The website is responsive across all screen sizes.
 
