@@ -130,10 +130,10 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
 
 The header consists of:
 
-- The business logo in the top left - this is a clickable link that takes the user to the home page.
-- The business name/title and their slogan - this is also a clickable link that takes the user to the home page.
-- Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page.
-    - This let's the user [navigate the website easily](#user-stories).
+- The business logo in the top left - this is a clickable link that takes the user to the home page
+- The business name/title and their slogan - this is also a clickable link that takes the user to the home page
+- Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page
+    - This let's the user [navigate the website easily](#user-stories)
 
 The header sticks to the top of the page when scrolling and is used on all pages of the website.
 
@@ -173,7 +173,7 @@ On medium and small screen sizes, the social links and copyright information sta
 
 ## Home Page
 
-- The content of all sections of the Home page stays the same - only layout and sizing changes.
+The content of all sections of the Home page stays the same - only layout and sizing changes.
 
 ### About Us
 
@@ -181,9 +181,9 @@ On medium and small screen sizes, the social links and copyright information sta
 
 The About section consists of:
 
-- An image of the business owners.
-- Text explaining the 'who' and 'what' of the business.
-    - This lets the [user know who Sumersata Designs are](#user-stories).
+- An image of the business owners
+- Text explaining the 'who' and 'what' of the business
+    - This lets the [user know who Sumersata Designs are](#user-stories)
 
 ### Shops/Courses/Events
 
@@ -191,9 +191,9 @@ The About section consists of:
 
 This section consists of three cards describing and taking the user to the following:
 
-- Shop - the [Sumersata Designs Etsy](https://www.etsy.com/shop/SumersataDesigns) store where the user can browse or purchase pre-made designs.
-- Courses - the [CraftCourses.com](https://www.craftcourses.com/craft-workshops?keyword=sumersata) website where the user can browse or purchase crafting courses that Sumersata Designs offer.
-- Events - the [Sumersata Designs Facebook](https://www.facebook.com/SumersataDesigns) page where the user can see any upcoming events for the business.
+- Shop - the [Sumersata Designs Etsy](https://www.etsy.com/shop/SumersataDesigns) store where the user can browse or purchase pre-made designs
+- Courses - the [CraftCourses.com](https://www.craftcourses.com/craft-workshops?keyword=sumersata) website where the user can browse or purchase crafting courses that Sumersata Designs offer
+- Events - the [Sumersata Designs Facebook](https://www.facebook.com/SumersataDesigns) page where the user can see any upcoming events for the business
 
 This section lets the user [know how and where to purchase products and courses](#user-stories).
 
@@ -205,17 +205,17 @@ These are all clickable links and there's a hover effect for each card to accent
 
 The Reviews section consists of:
 
-- The top rated reviews left by customers who've experienced courses offered by Sumersata Designs.
-- An annotated image of a customer whom attended a course and left a review.
-- A Silver Certificate of Excellence awarded to Sumersata Designs by CraftCourses.com.
+- The top rated reviews left by customers who've experienced courses offered by Sumersata Designs
+- An annotated image of a customer whom attended a course and left a review
+- A Silver Certificate of Excellence awarded to Sumersata Designs by CraftCourses.com
 
 ### Address/Map
 
 ![Address/Map image](/assets/readme-files/address-section.jpeg)
 This section consists of:
 
-- The business address and contact email address.
-- An interactive Google Map pinned to the business address.
+- The business address and contact email address
+- An interactive Google Map pinned to the business address
 
 ## Gallery Page
 
@@ -235,7 +235,7 @@ Phone | ![Phone Gallery image](/assets/readme-files/gallery-sm.jpeg)
 
 This section consists of:
 
-- A full screen background image in the form of a wrapper around the Header, Main section and Footer.
+- A full screen background image in the form of a wrapper around the Header, Main section and Footer
 - A contact form containing the following inputs:
   - Name
   - Email
@@ -259,8 +259,8 @@ The content of the Contact Us page stays the same - only layout and sizing chang
 
 ![404 Error Page image](/assets/readme-files/error-404-page.jpeg)
 
-- This page shows when the user enters an incorrect version of the website's URL.
-    - This helps the user [find their way back to the home page if they lose their way](#user-stories).
+This page shows when the user enters an incorrect version of the website's URL.
+- This helps the user [find their way back to the home page if they lose their way](#user-stories).
 
 The page consists of:
 
@@ -464,27 +464,29 @@ This website was developed using [Codeanywhere](https://codeanywhere.com/solutio
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs).
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
 2. At the top of the page, locate the "Settings" button on the menu bar
-   ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png).
+   ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png)
 3. Under "Code and automation" on the left hand side of the window, click the "Pages" tab
-   ![Deployment Instructions Part 1](/assets/readme-files/deployment-2.png).
-4. Under "Source", select the option "Deploy from a branch".
-5. Under "Branch", select the option "main", then select the "/(root)" folder.
-6. Click "Save" and the page will refresh.
-7. The published site link appears at the top of the "GitHub Pages" section.
-8. Click "Visit Site" and the website will open.
+   ![Deployment Instructions Part 1](/assets/readme-files/deployment-2.png)
+4. Under "Source", select the option "Deploy from a branch"
+5. Under "Branch", select the option "main", then select the "/(root)" folder
+6. Click "Save" and the page will refresh
+7. The published site link appears at the top of the "GitHub Pages" section
+8. Click "Visit Site" and the website will open
 
 ## Making a Local Clone
 
-1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs).
-2. At the top of the Repository (not top of page), locate and click on the "< > Code" button on the menu bar.
-3. In the "Local" tab, beneath where it says "Clone", select the "HTTPS" option.
-4. Just below that, copy the link for the repository.
-5. Open Git Bash.
-6. Change the current working directory to the location where you want the cloned directory to be made.
-7. Type `git clone`, and then paste the URL you copied in Step 3.
-8. Press Enter. Your local clone will be created.
+To make a clone of this project, please use the following steps:
+
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
+2. At the top of the Repository (not top of page), locate and click on the "< > Code" button on the menu bar
+3. In the "Local" tab, beneath where it says "Clone", select the "HTTPS" option
+4. Just below that, copy the link for the repository
+5. Open Git Bash
+6. Change the current working directory to the location where you want the cloned directory to be made
+7. Type `git clone`, and then paste the URL you copied in Step 3
+8. Press Enter. Your local clone will be created
 
 # Credits
 
