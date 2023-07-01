@@ -6,7 +6,7 @@ Sumersata Designs is a craft-design business situated in the South West of Engla
 
 The primary goal of this website is to provide an informative and easy-to-use platform for the user to explore products and courses offered by Sumersata Designs, as well as offer the ability for the user to contact the business for craft-design requests.
 
-Visit the deployed site [here](https://danhodgson12.github.io/Sumerata-Designs/).
+Visit the deployed site [here](https://danhodgson12.github.io/Sumersata-Designs/).
 
 ---
 
@@ -239,7 +239,7 @@ This section consists of:
 - A contact form containing the following inputs:
   - Name
   - Email
-  - Textarea - where users can request a design idea
+  - Text-area - where users can request a design idea
   - Checkbox - where users can sign up to the weekly newsletter
   - Submit button
 
@@ -352,7 +352,7 @@ The W3C Markup Validator returned a few errors:
 ![Markup Validation Image 1](/assets/readme-files/markup-validation-1.png)
 
 - The use of a `span` element inside a `figure` element. 
-    - This was overcome by moving it inside the `ficcaption` element.
+    - This was overcome by moving it inside the `figcaption` element.
 
 ![Markup Validation Image 2](/assets/readme-files/markup-validation-2.png)
     
@@ -424,7 +424,7 @@ Feature | Outcome | Pass/Fail
   Nav Links | Each link takes user to relevant page | Pass
   Nav Link Hover | Shows underline when hovering over links as expected | Pass
   Nav Link Active | Shows underline on active page as expected | Pass
-  Nav Toggler | Collapses and exapands with no visible issues | Pass
+  Nav Toggler | Collapses and expands with no visible issues | Pass
   Social Links | Each link opens in a new page | Pass
   Social Links Hover | Each link's hover effect works without issue | Pass
 
@@ -480,7 +480,7 @@ This website was developed using [Codeanywhere](https://codeanywhere.com/solutio
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumersata-Designs)
 2. At the top of the page, locate the "Settings" button on the menu bar
    ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png)
 3. Under "Code and automation" on the left hand side of the window, click the "Pages" tab
@@ -495,7 +495,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 To make a clone of this project, please use the following steps:
 
-1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumerata-Designs)
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumersata-Designs)
 2. At the top of the Repository (not top of page), locate and click on the "< > Code" button on the menu bar
 3. In the "Local" tab, beneath where it says "Clone", select the "HTTPS" option
 4. Just below that, copy the link for the repository
