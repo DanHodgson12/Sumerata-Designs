@@ -92,7 +92,7 @@ Visit the deployed site [here](https://danhodgson12.github.io/Sumersata-Designs/
 
 The colours used for this website are:
 
-- Lavender (#b0bdef) - for the header, footer and contact form
+- Lavender (#b0bdef) - for the Header, Footer and Contact Form
 - Off-white (#fefefc) - for the navbar toggler, nav underlines, social-links icons and main background colour for each page and all cards
 - Charcoal (#313131) - for the bulk of the text including the nav title, card text and contact form text, and the nav link underlines
 - Light Grey (#5c5c5c) - for the social links, the background colour for the 'Address & Contact' section on the home page, the outline for the input fields of the contact form and the hover effect for the form's submit button
@@ -100,7 +100,7 @@ The colours used for this website are:
 
 ## Typography
 
-The main font used throughout the site is Roboto Condensed, with sans-serif as a fallback if it fails to load. This font was suggested on [figma.com](https://www.figma.com/google-fonts/roboto-font-pairings/#:~:text=Roboto%20font%20pairings,Nunito%2C%20Raleway%20and%20Space%20Mono.) as a good font pairing with Lora, which is used for all headings and the nav title. Serif is used as a fall-back for Lora.
+The main font used throughout the site is Roboto Condensed, with sans-serif as a fallback if it fails to load. This font was suggested on [figma.com](https://www.figma.com/google-fonts/roboto-font-pairings/#:~:text=Roboto%20font%20pairings,Nunito%2C%20Raleway%20and%20Space%20Mono.) as a good font pairing with Lora, which is used for all headings and the nav title. Serif is used as a fallback for Lora.
 
 ## Wireframes
 
@@ -128,24 +128,24 @@ Contact Us section| ![Contact Us section wireframe image](/assets/readme-files/c
 
 ![Header on large screen sizes](/assets/readme-files/header-lg.jpeg)
 
-The header consists of:
+The Header consists of:
 
 - The business logo in the top left - this is a clickable link that takes the user to the home page
 - The business name/title and their slogan - this is also a clickable link that takes the user to the home page
 - Navigation links for all three pages of the website - each link has a dark grey underline when hovered over and an off-white underline for the active page
-    - This let's the user [navigate the website easily](#user-stories)
+    - This lets the user [navigate the website easily](#user-stories)
 
-The header sticks to the top of the page when scrolling and is used on all pages of the website.
+The Header sticks to the top of the page when scrolling and is used on all pages of the website.
 
 On medium and small screen sizes, the navigation links turn into a **Navbar Toggler** which expands and collapses when clicked.
 
 ![Header on medium and small screen sizes - collapsed](/assets/readme-files/header-sm-md-clpsd.jpeg)
 
-When expanded, the nav links are displayed vertically with the same underline and 'active' features as the large screen size header.
+When expanded, the nav links are displayed vertically with the same underline and 'active' features as the large screen size Header.
 
 ![Header on medium and small screen sizes - expanded](/assets/readme-files/header-sm-md-xpnd.jpeg)
 
-On very small screen widths - 333px or less - the logo gets hidden otherwise there's not enough room for all the features of the header.
+On very small screen widths - 333px or less - the logo gets hidden otherwise there's not enough room for all the features of the Header.
 
 ![Header on very small screen sizes](/assets/readme-files/header-vs.jpeg)
 
@@ -153,7 +153,7 @@ On very small screen widths - 333px or less - the logo gets hidden otherwise the
 
 ![Footer on large screen sizes](/assets/readme-files/footer-lg.jpeg)
 
-The footer consists of:
+The Footer consists of:
 
 - Copyright information on the left.
 - Social links on the right - these are clickable links that go to their respective social pages:
@@ -163,11 +163,11 @@ The footer consists of:
   - Twitter
   - Youtube
 
-This section of the footer [allows the user to visit Sumersata Designs' social media websites](#user-stories).
+This section of the Footer [allows the user to visit Sumersata Designs' social media websites](#user-stories).
 
-The footer sticks to the bottom of the page when scrolling and is used on all pages of the website.
+The Footer sticks to the bottom of the page when scrolling and is used on all pages of the website.
 
-On medium and small screen sizes, the social links and copyright information stack on top of each other. This seems more visually appealing and stops the footer becoming cramped.
+On medium and small screen sizes, the social links and copyright information stack on top of each other. This seems more visually appealing and stops the Footer becoming cramped.
 
 ![Footer on medium and small screen sizes](/assets/readme-files/footer-sm-md.jpeg)
 
@@ -206,7 +206,7 @@ These are all clickable links and there's a hover effect for each card to accent
 The Reviews section consists of:
 
 - The top rated reviews left by customers who've experienced courses offered by Sumersata Designs
-- An annotated image of a customer whom attended a course and left a review
+- An annotated image of a customer who attended a course and left a review
 - A Silver Certificate of Excellence awarded to Sumersata Designs by CraftCourses.com
 
 ### Address/Map
@@ -288,8 +288,8 @@ The page consists of:
 - [Font Awesome](https://fontawesome.com/)
   - Font Awesome was used to add icons for the social links and stars for the reviews section, to add a better user experience.
 
-- [CodeAnywhere](https://app.codeanywhere.com/)
-  - CodeAnywhere was used for writing, committing and pushing the code to GitHub.
+- [Codeanywhere](https://app.codeanywhere.com/)
+  - Codeanywhere was used for writing, committing and pushing the code to GitHub.
 
 - [Bootstrap 5](https://getbootstrap.com/)
   - Bootstrap 5 was used to develop a responsive mobile-first design using an assortment of templates.
@@ -323,8 +323,8 @@ The page consists of:
   - A image of the business owners lets the user see who they are.
 
 - As a user, I want to know how and where to purchase products and courses.
-  - The Etsy 'shop card' let's the user visit the Sumersata Designs Etsy storefront and browse products.
-  - The Courses 'shop card' let's the user visit the Sumersata Designs CraftCourses.com storefront and browse courses taught by the business.
+  - The Etsy 'shop card' lets the user visit the Sumersata Designs Etsy storefront and browse products.
+  - The Courses 'shop card' lets the user visit the Sumersata Designs CraftCourses.com storefront and browse courses taught by the business.
   - Each card is a clickable link.
   - Each card is accentuated by a shadow when the user hovers over it.
   - The reviews section provides the user with reassurance.
@@ -333,7 +333,7 @@ The page consists of:
   - The Gallery page displays a wide range of products designed by Sumersata Designs.
 
 - As a user, I want to be able to contact Sumersata Designs easily.
-  - The Contact Us page let's the user fill in their details to get in touch with Sumersata Designs.
+  - The Contact Us page lets the user fill in their details to get in touch with Sumersata Designs.
   - The Home page also provides the user with a contact email.
   - The Home page contains an address for the business and an interactive map to find the business.
   
@@ -459,6 +459,12 @@ Feature | Outcome | Pass/Fail
 404 Error Page | Page appears when user enters incorrect URL | Pass
 Home Button | User is taken to home page as expected | Pass
 
+### Known Bugs
+
+There are no known bugs with the website. 
+
+One issue with the 'README' file is that the table of contents seems to auto-fill halfway through manually typing it out, and cannot be adjusted afterwards. This means that the title of the file and the table of contents show as clickable links/sections in the table of contents.
+
 [Back to top &#8682;](#table-of-contents)
 
 # Finished Product
@@ -480,29 +486,29 @@ This website was developed using [Codeanywhere](https://codeanywhere.com/solutio
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumersata-Designs)
-2. At the top of the page, locate the "Settings" button on the menu bar
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumersata-Designs).
+2. At the top of the page, locate the "Settings" button on the menu bar.
    ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png)
-3. Under "Code and automation" on the left hand side of the window, click the "Pages" tab
+3. Under "Code and automation" on the left-hand side of the window, click the "Pages" tab.
    ![Deployment Instructions Part 1](/assets/readme-files/deployment-2.png)
-4. Under "Source", select the option "Deploy from a branch"
-5. Under "Branch", select the option "main", then select the "/(root)" folder
-6. Click "Save" and the page will refresh
-7. The published site link appears at the top of the "GitHub Pages" section
-8. Click "Visit Site" and the website will open
+4. Under "Source", select the option "Deploy from a branch".
+5. Under "Branch", select the option "main", then select the "/(root)" folder.
+6. Click "Save" and the page will refresh.
+7. The published site link appears at the top of the "GitHub Pages" section.
+8. Click "Visit Site" and the website will open.
 
 ## Making a Local Clone
 
 To make a clone of this project, please use the following steps:
 
-1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumersata-Designs)
-2. At the top of the Repository (not top of page), locate and click on the "< > Code" button on the menu bar
-3. In the "Local" tab, beneath where it says "Clone", select the "HTTPS" option
-4. Just below that, copy the link for the repository
-5. Open Git Bash
-6. Change the current working directory to the location where you want the cloned directory to be made
-7. Type `git clone`, and then paste the URL you copied in Step 3
-8. Press Enter. Your local clone will be created
+1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumersata-Designs).
+2. At the top of the Repository (not top of page), locate and click on the "< > Code" button on the menu bar.
+3. In the "Local" tab, beneath where it says "Clone", select the "HTTPS" option.
+4. Just below that, copy the link for the repository.
+5. Open Git Bash.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type `git clone`, and then paste the URL you copied in Step 3.
+8. Press Enter. Your local clone will be created.
 
 # Credits
 
@@ -523,7 +529,7 @@ To make a clone of this project, please use the following steps:
 - [Font Awesome](https://fontawesome.com/) was used for adding the social-link icons and review star icons.
 - [W3Schools](https://www.w3schools.com/) & [Stack Overflow](https://stackoverflow.co/teams/) were utilised to help overcome roadblocks in the developer's coding knowledge.
 - [Stack Overflow](https://stackoverflow.com/questions/2570972/css-font-border) was used for help giving the review stars a slight border in order to make them stand out.
-- [Stack Overflow](https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) was also used for help with an issue on the Contact Us page, where the background image was not pushing the footer to the bottom of the page.
+- [Stack Overflow](https://stackoverflow.com/questions/4575826/how-to-push-a-footer-to-the-bottom-of-page-when-content-is-short-or-missing) was also used for help with an issue on the Contact Us page, where the background image was not pushing the Footer to the bottom of the page.
 - [CSS Scan](https://getcssscan.com/css-buttons-examples) was used for adding the base version of the button to the contact form (Button 24).
 
 # Acknowledgements
