@@ -535,7 +535,7 @@ To make a clone of this project, please use the following steps:
 # Acknowledgements
 
 - My family, for their valuable opinions and unconditional support.
-- My mentor Marcel, for his encouraging feedback and patience during my learning journey.
+- My mentor, Marcel, for his encouraging feedback and patience during my learning journey.
 - Code Institute, for its wonderful learning platform and supportive community.
 
 [Back to top &#8682;](#table-of-contents)
