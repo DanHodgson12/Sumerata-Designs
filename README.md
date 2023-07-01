@@ -488,9 +488,9 @@ The project was deployed to GitHub Pages using the following steps:
 
 1. Log into GitHub and locate the [GitHub Repository](https://github.com/DanHodgson12/Sumersata-Designs).
 2. At the top of the page, locate the "Settings" button on the menu bar.
-   ![Deployment Instructions Part 1](/assets/readme-files/deployment-1.png)
+   ![Deployment Instructions Part 1](/assets/readme-files/github-deployment-1.png)
 3. Under "Code and automation" on the left-hand side of the window, click the "Pages" tab.
-   ![Deployment Instructions Part 1](/assets/readme-files/deployment-2.png)
+   ![Deployment Instructions Part 1](/assets/readme-files/github-deployment-2.png)
 4. Under "Source", select the option "Deploy from a branch".
 5. Under "Branch", select the option "main", then select the "/(root)" folder.
 6. Click "Save" and the page will refresh.
